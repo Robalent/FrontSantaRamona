@@ -32,3 +32,38 @@ C:\Mis Proyectos\PruebaFront\obj\Debug\net8.0\refint\PruebaFront.dll
 C:\Mis Proyectos\PruebaFront\obj\Debug\net8.0\PruebaFront.pdb
 C:\Mis Proyectos\PruebaFront\obj\Debug\net8.0\PruebaFront.genruntimeconfig.cache
 C:\Mis Proyectos\PruebaFront\obj\Debug\net8.0\ref\PruebaFront.dll
+C:\FrontSanta\FrontSanta\bin\Debug\net8.0\appsettings.Development.json
+C:\FrontSanta\FrontSanta\bin\Debug\net8.0\appsettings.json
+C:\FrontSanta\FrontSanta\bin\Debug\net8.0\PruebaFront.staticwebassets.runtime.json
+C:\FrontSanta\FrontSanta\bin\Debug\net8.0\PruebaFront.staticwebassets.endpoints.json
+C:\FrontSanta\FrontSanta\bin\Debug\net8.0\PruebaFront.exe
+C:\FrontSanta\FrontSanta\bin\Debug\net8.0\PruebaFront.deps.json
+C:\FrontSanta\FrontSanta\bin\Debug\net8.0\PruebaFront.runtimeconfig.json
+C:\FrontSanta\FrontSanta\bin\Debug\net8.0\PruebaFront.dll
+C:\FrontSanta\FrontSanta\bin\Debug\net8.0\PruebaFront.pdb
+C:\FrontSanta\FrontSanta\obj\Debug\net8.0\PruebaFront.GeneratedMSBuildEditorConfig.editorconfig
+C:\FrontSanta\FrontSanta\obj\Debug\net8.0\PruebaFront.AssemblyInfoInputs.cache
+C:\FrontSanta\FrontSanta\obj\Debug\net8.0\PruebaFront.AssemblyInfo.cs
+C:\FrontSanta\FrontSanta\obj\Debug\net8.0\PruebaFront.csproj.CoreCompileInputs.cache
+C:\FrontSanta\FrontSanta\obj\Debug\net8.0\PruebaFront.MvcApplicationPartsAssemblyInfo.cache
+C:\FrontSanta\FrontSanta\obj\Debug\net8.0\PruebaFront.RazorAssemblyInfo.cache
+C:\FrontSanta\FrontSanta\obj\Debug\net8.0\PruebaFront.RazorAssemblyInfo.cs
+C:\FrontSanta\FrontSanta\obj\Debug\net8.0\PruebaFront.sourcelink.json
+C:\FrontSanta\FrontSanta\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\FrontSanta\FrontSanta\obj\Debug\net8.0\scopedcss\bundle\PruebaFront.styles.css
+C:\FrontSanta\FrontSanta\obj\Debug\net8.0\scopedcss\projectbundle\PruebaFront.bundle.scp.css
+C:\FrontSanta\FrontSanta\obj\Debug\net8.0\staticwebassets.build.json
+C:\FrontSanta\FrontSanta\obj\Debug\net8.0\staticwebassets.development.json
+C:\FrontSanta\FrontSanta\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\FrontSanta\FrontSanta\obj\Debug\net8.0\staticwebassets\msbuild.PruebaFront.Microsoft.AspNetCore.StaticWebAssets.props
+C:\FrontSanta\FrontSanta\obj\Debug\net8.0\staticwebassets\msbuild.PruebaFront.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\FrontSanta\FrontSanta\obj\Debug\net8.0\staticwebassets\msbuild.build.PruebaFront.props
+C:\FrontSanta\FrontSanta\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.PruebaFront.props
+C:\FrontSanta\FrontSanta\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.PruebaFront.props
+C:\FrontSanta\FrontSanta\obj\Debug\net8.0\staticwebassets.pack.json
+C:\FrontSanta\FrontSanta\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\FrontSanta\FrontSanta\obj\Debug\net8.0\PruebaFront.dll
+C:\FrontSanta\FrontSanta\obj\Debug\net8.0\refint\PruebaFront.dll
+C:\FrontSanta\FrontSanta\obj\Debug\net8.0\PruebaFront.pdb
+C:\FrontSanta\FrontSanta\obj\Debug\net8.0\PruebaFront.genruntimeconfig.cache
+C:\FrontSanta\FrontSanta\obj\Debug\net8.0\ref\PruebaFront.dll
