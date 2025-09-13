@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Y/aGZez7hDJjAOYeGYZbdGnxBv2UG8M1RI72z0eQOPc=",
+  "Hash": "Tfs2OwYqEH6fKQBUh69iUg2aJAUNflvgscyK4gcInKo=",
   "Source": "PruebaFront",
   "BasePath": "_content/PruebaFront",
   "Mode": "Default",
@@ -78,6 +78,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\FrontSanta\\FrontSanta\\wwwroot\\css\\StyleSheet.css",
+      "SourceId": "PruebaFront",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\FrontSanta\\FrontSanta\\wwwroot\\",
+      "BasePath": "_content/PruebaFront",
+      "RelativePath": "css/StyleSheet#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mgajbhdzr4",
+      "Integrity": "SuWRPKLk6wKDTJK4A6aRxkcjVMFkrvf9uXrWjBeyiCY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\StyleSheet.css"
     },
     {
       "Identity": "C:\\FrontSanta\\FrontSanta\\wwwroot\\favicon.ico",
@@ -1756,6 +1777,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+        }
+      ]
+    },
+    {
+      "Route": "css/StyleSheet.css",
+      "AssetFile": "C:\\FrontSanta\\FrontSanta\\wwwroot\\css\\StyleSheet.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8842"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SuWRPKLk6wKDTJK4A6aRxkcjVMFkrvf9uXrWjBeyiCY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 13 Sep 2025 23:56:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SuWRPKLk6wKDTJK4A6aRxkcjVMFkrvf9uXrWjBeyiCY="
+        }
+      ]
+    },
+    {
+      "Route": "css/StyleSheet.mgajbhdzr4.css",
+      "AssetFile": "C:\\FrontSanta\\FrontSanta\\wwwroot\\css\\StyleSheet.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8842"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SuWRPKLk6wKDTJK4A6aRxkcjVMFkrvf9uXrWjBeyiCY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 13 Sep 2025 23:56:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mgajbhdzr4"
+        },
+        {
+          "Name": "label",
+          "Value": "css/StyleSheet.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SuWRPKLk6wKDTJK4A6aRxkcjVMFkrvf9uXrWjBeyiCY="
         }
       ]
     },

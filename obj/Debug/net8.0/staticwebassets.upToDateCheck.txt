@@ -1,4 +1,5 @@
 wwwroot\css\site.css
+wwwroot\css\StyleSheet.css
 wwwroot\favicon.ico
 wwwroot\images\Bolt.jpg
 wwwroot\images\feria.png

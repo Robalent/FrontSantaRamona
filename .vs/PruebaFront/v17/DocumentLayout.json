@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\FrontSanta\\FrontSanta\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EBFD97C5-E033-45FE-AE0B-8A070CABD4AD}|PruebaFront.csproj|c:\\frontsanta\\frontsanta\\wwwroot\\css\\stylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EBFD97C5-E033-45FE-AE0B-8A070CABD4AD}|PruebaFront.csproj|solutionrelative:wwwroot\\css\\stylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EBFD97C5-E033-45FE-AE0B-8A070CABD4AD}|PruebaFront.csproj|c:\\frontsanta\\frontsanta\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EBFD97C5-E033-45FE-AE0B-8A070CABD4AD}|PruebaFront.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -27,19 +31,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "StyleSheet.css",
+              "DocumentMoniker": "C:\\FrontSanta\\FrontSanta\\wwwroot\\css\\StyleSheet.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\StyleSheet.css",
+              "ToolTip": "C:\\FrontSanta\\FrontSanta\\wwwroot\\css\\StyleSheet.css",
+              "RelativeToolTip": "wwwroot\\css\\StyleSheet.css",
+              "ViewState": "AgIAALYBAAAAAAAAAAAAAMMBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-13T22:27:02.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\FrontSanta\\FrontSanta\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\FrontSanta\\FrontSanta\\Views\\Home\\Index.cshtml*",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml*",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADcAAAAZAAAAAAAAAA==",
+              "ToolTip": "C:\\FrontSanta\\FrontSanta\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAAAKUAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-20T22:34:16.395Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\FrontSanta\\FrontSanta\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
@@ -47,7 +64,8 @@
               "RelativeToolTip": "Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-20T22:32:34.182Z"
+              "WhenOpened": "2025-08-20T22:32:34.182Z",
+              "EditorCaption": ""
             }
           ]
         }
