@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Tfs2OwYqEH6fKQBUh69iUg2aJAUNflvgscyK4gcInKo=",
+  "Hash": "sQ8UlDlVtc85M+C/5/WITY68hKPkGtfb5ypAQt5WPOY=",
   "Source": "PruebaFront",
   "BasePath": "_content/PruebaFront",
   "Mode": "Default",
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "mgajbhdzr4",
-      "Integrity": "SuWRPKLk6wKDTJK4A6aRxkcjVMFkrvf9uXrWjBeyiCY=",
+      "Fingerprint": "ab9j9nrjrg",
+      "Integrity": "GnUGVBedtcCBOdNeQrszHI8WBGmuauARRKO0Gp3P9Xo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\StyleSheet.css"
@@ -1781,6 +1781,51 @@
       ]
     },
     {
+      "Route": "css/StyleSheet.ab9j9nrjrg.css",
+      "AssetFile": "C:\\FrontSanta\\FrontSanta\\wwwroot\\css\\StyleSheet.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8404"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GnUGVBedtcCBOdNeQrszHI8WBGmuauARRKO0Gp3P9Xo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 13 Sep 2025 23:59:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ab9j9nrjrg"
+        },
+        {
+          "Name": "label",
+          "Value": "css/StyleSheet.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GnUGVBedtcCBOdNeQrszHI8WBGmuauARRKO0Gp3P9Xo="
+        }
+      ]
+    },
+    {
       "Route": "css/StyleSheet.css",
       "AssetFile": "C:\\FrontSanta\\FrontSanta\\wwwroot\\css\\StyleSheet.css",
       "Selectors": [],
@@ -1791,7 +1836,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8842"
+          "Value": "8404"
         },
         {
           "Name": "Content-Type",
@@ -1799,11 +1844,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"SuWRPKLk6wKDTJK4A6aRxkcjVMFkrvf9uXrWjBeyiCY=\""
+          "Value": "\"GnUGVBedtcCBOdNeQrszHI8WBGmuauARRKO0Gp3P9Xo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 13 Sep 2025 23:56:23 GMT"
+          "Value": "Sat, 13 Sep 2025 23:59:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1813,52 +1858,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-SuWRPKLk6wKDTJK4A6aRxkcjVMFkrvf9uXrWjBeyiCY="
-        }
-      ]
-    },
-    {
-      "Route": "css/StyleSheet.mgajbhdzr4.css",
-      "AssetFile": "C:\\FrontSanta\\FrontSanta\\wwwroot\\css\\StyleSheet.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8842"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"SuWRPKLk6wKDTJK4A6aRxkcjVMFkrvf9uXrWjBeyiCY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 13 Sep 2025 23:56:23 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "mgajbhdzr4"
-        },
-        {
-          "Name": "label",
-          "Value": "css/StyleSheet.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-SuWRPKLk6wKDTJK4A6aRxkcjVMFkrvf9uXrWjBeyiCY="
+          "Value": "sha256-GnUGVBedtcCBOdNeQrszHI8WBGmuauARRKO0Gp3P9Xo="
         }
       ]
     },
