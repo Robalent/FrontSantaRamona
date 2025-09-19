@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\FrontSanta\\FrontSanta\\",
+  "WorkspaceRootPath": "C:\\Users\\Atila\\Documents\\pri facu\\3\u00BA a\u00F1o - 2\u00BA cuatri\\programacion 6\\Santa Ramona\\FrontSantaRamona\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EBFD97C5-E033-45FE-AE0B-8A070CABD4AD}|PruebaFront.csproj|c:\\frontsanta\\frontsanta\\wwwroot\\css\\stylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{EBFD97C5-E033-45FE-AE0B-8A070CABD4AD}|PruebaFront.csproj|c:\\users\\atila\\documents\\pri facu\\3\u00BA a\u00F1o - 2\u00BA cuatri\\programacion 6\\santa ramona\\frontsantaramona\\wwwroot\\css\\stylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{EBFD97C5-E033-45FE-AE0B-8A070CABD4AD}|PruebaFront.csproj|solutionrelative:wwwroot\\css\\stylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBFD97C5-E033-45FE-AE0B-8A070CABD4AD}|PruebaFront.csproj|c:\\frontsanta\\frontsanta\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{EBFD97C5-E033-45FE-AE0B-8A070CABD4AD}|PruebaFront.csproj|c:\\users\\atila\\documents\\pri facu\\3\u00BA a\u00F1o - 2\u00BA cuatri\\programacion 6\\santa ramona\\frontsantaramona\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EBFD97C5-E033-45FE-AE0B-8A070CABD4AD}|PruebaFront.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBFD97C5-E033-45FE-AE0B-8A070CABD4AD}|PruebaFront.csproj|c:\\frontsanta\\frontsanta\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{EBFD97C5-E033-45FE-AE0B-8A070CABD4AD}|PruebaFront.csproj|c:\\users\\atila\\documents\\pri facu\\3\u00BA a\u00F1o - 2\u00BA cuatri\\programacion 6\\santa ramona\\frontsantaramona\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EBFD97C5-E033-45FE-AE0B-8A070CABD4AD}|PruebaFront.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -22,8 +22,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
@@ -32,11 +48,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "StyleSheet.css",
-              "DocumentMoniker": "C:\\FrontSanta\\FrontSanta\\wwwroot\\css\\StyleSheet.css",
+              "DocumentMoniker": "C:\\Users\\Atila\\Documents\\pri facu\\3\u00BA a\u00F1o - 2\u00BA cuatri\\programacion 6\\Santa Ramona\\FrontSantaRamona\\wwwroot\\css\\StyleSheet.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\StyleSheet.css",
-              "ToolTip": "C:\\FrontSanta\\FrontSanta\\wwwroot\\css\\StyleSheet.css",
+              "ToolTip": "C:\\Users\\Atila\\Documents\\pri facu\\3\u00BA a\u00F1o - 2\u00BA cuatri\\programacion 6\\Santa Ramona\\FrontSantaRamona\\wwwroot\\css\\StyleSheet.css",
               "RelativeToolTip": "wwwroot\\css\\StyleSheet.css",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAAAJkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADAAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-09-13T22:27:02.157Z",
               "EditorCaption": ""
@@ -45,11 +61,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\FrontSanta\\FrontSanta\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Atila\\Documents\\pri facu\\3\u00BA a\u00F1o - 2\u00BA cuatri\\programacion 6\\Santa Ramona\\FrontSantaRamona\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\FrontSanta\\FrontSanta\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Atila\\Documents\\pri facu\\3\u00BA a\u00F1o - 2\u00BA cuatri\\programacion 6\\Santa Ramona\\FrontSantaRamona\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKUAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAAAKUAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-20T22:34:16.395Z",
               "EditorCaption": ""
@@ -58,14 +74,13 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\FrontSanta\\FrontSanta\\Views\\_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Atila\\Documents\\pri facu\\3\u00BA a\u00F1o - 2\u00BA cuatri\\programacion 6\\Santa Ramona\\FrontSantaRamona\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\FrontSanta\\FrontSanta\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Atila\\Documents\\pri facu\\3\u00BA a\u00F1o - 2\u00BA cuatri\\programacion 6\\Santa Ramona\\FrontSantaRamona\\Views\\_ViewStart.cshtml",
               "RelativeToolTip": "Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-20T22:32:34.182Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-20T22:32:34.182Z"
             }
           ]
         }
