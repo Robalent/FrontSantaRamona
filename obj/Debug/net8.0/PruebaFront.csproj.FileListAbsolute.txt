@@ -67,3 +67,38 @@ C:\FrontSanta\FrontSanta\obj\Debug\net8.0\refint\PruebaFront.dll
 C:\FrontSanta\FrontSanta\obj\Debug\net8.0\PruebaFront.pdb
 C:\FrontSanta\FrontSanta\obj\Debug\net8.0\PruebaFront.genruntimeconfig.cache
 C:\FrontSanta\FrontSanta\obj\Debug\net8.0\ref\PruebaFront.dll
+C:\Users\Atila\Documents\pri facu\3º año - 2º cuatri\programacion 6\Santa Ramona\FrontSantaRamona\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Atila\Documents\pri facu\3º año - 2º cuatri\programacion 6\Santa Ramona\FrontSantaRamona\bin\Debug\net8.0\appsettings.json
+C:\Users\Atila\Documents\pri facu\3º año - 2º cuatri\programacion 6\Santa Ramona\FrontSantaRamona\bin\Debug\net8.0\PruebaFront.staticwebassets.runtime.json
+C:\Users\Atila\Documents\pri facu\3º año - 2º cuatri\programacion 6\Santa Ramona\FrontSantaRamona\bin\Debug\net8.0\PruebaFront.staticwebassets.endpoints.json
+C:\Users\Atila\Documents\pri facu\3º año - 2º cuatri\programacion 6\Santa Ramona\FrontSantaRamona\bin\Debug\net8.0\PruebaFront.exe
+C:\Users\Atila\Documents\pri facu\3º año - 2º cuatri\programacion 6\Santa Ramona\FrontSantaRamona\bin\Debug\net8.0\PruebaFront.deps.json
+C:\Users\Atila\Documents\pri facu\3º año - 2º cuatri\programacion 6\Santa Ramona\FrontSantaRamona\bin\Debug\net8.0\PruebaFront.runtimeconfig.json
+C:\Users\Atila\Documents\pri facu\3º año - 2º cuatri\programacion 6\Santa Ramona\FrontSantaRamona\bin\Debug\net8.0\PruebaFront.dll
+C:\Users\Atila\Documents\pri facu\3º año - 2º cuatri\programacion 6\Santa Ramona\FrontSantaRamona\bin\Debug\net8.0\PruebaFront.pdb
+C:\Users\Atila\Documents\pri facu\3º año - 2º cuatri\programacion 6\Santa Ramona\FrontSantaRamona\obj\Debug\net8.0\PruebaFront.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Atila\Documents\pri facu\3º año - 2º cuatri\programacion 6\Santa Ramona\FrontSantaRamona\obj\Debug\net8.0\PruebaFront.AssemblyInfoInputs.cache
+C:\Users\Atila\Documents\pri facu\3º año - 2º cuatri\programacion 6\Santa Ramona\FrontSantaRamona\obj\Debug\net8.0\PruebaFront.AssemblyInfo.cs
+C:\Users\Atila\Documents\pri facu\3º año - 2º cuatri\programacion 6\Santa Ramona\FrontSantaRamona\obj\Debug\net8.0\PruebaFront.csproj.CoreCompileInputs.cache
+C:\Users\Atila\Documents\pri facu\3º año - 2º cuatri\programacion 6\Santa Ramona\FrontSantaRamona\obj\Debug\net8.0\PruebaFront.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Atila\Documents\pri facu\3º año - 2º cuatri\programacion 6\Santa Ramona\FrontSantaRamona\obj\Debug\net8.0\PruebaFront.RazorAssemblyInfo.cache
+C:\Users\Atila\Documents\pri facu\3º año - 2º cuatri\programacion 6\Santa Ramona\FrontSantaRamona\obj\Debug\net8.0\PruebaFront.RazorAssemblyInfo.cs
+C:\Users\Atila\Documents\pri facu\3º año - 2º cuatri\programacion 6\Santa Ramona\FrontSantaRamona\obj\Debug\net8.0\PruebaFront.sourcelink.json
+C:\Users\Atila\Documents\pri facu\3º año - 2º cuatri\programacion 6\Santa Ramona\FrontSantaRamona\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Atila\Documents\pri facu\3º año - 2º cuatri\programacion 6\Santa Ramona\FrontSantaRamona\obj\Debug\net8.0\scopedcss\bundle\PruebaFront.styles.css
+C:\Users\Atila\Documents\pri facu\3º año - 2º cuatri\programacion 6\Santa Ramona\FrontSantaRamona\obj\Debug\net8.0\scopedcss\projectbundle\PruebaFront.bundle.scp.css
+C:\Users\Atila\Documents\pri facu\3º año - 2º cuatri\programacion 6\Santa Ramona\FrontSantaRamona\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Atila\Documents\pri facu\3º año - 2º cuatri\programacion 6\Santa Ramona\FrontSantaRamona\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Atila\Documents\pri facu\3º año - 2º cuatri\programacion 6\Santa Ramona\FrontSantaRamona\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Atila\Documents\pri facu\3º año - 2º cuatri\programacion 6\Santa Ramona\FrontSantaRamona\obj\Debug\net8.0\staticwebassets\msbuild.PruebaFront.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Atila\Documents\pri facu\3º año - 2º cuatri\programacion 6\Santa Ramona\FrontSantaRamona\obj\Debug\net8.0\staticwebassets\msbuild.PruebaFront.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Atila\Documents\pri facu\3º año - 2º cuatri\programacion 6\Santa Ramona\FrontSantaRamona\obj\Debug\net8.0\staticwebassets\msbuild.build.PruebaFront.props
+C:\Users\Atila\Documents\pri facu\3º año - 2º cuatri\programacion 6\Santa Ramona\FrontSantaRamona\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.PruebaFront.props
+C:\Users\Atila\Documents\pri facu\3º año - 2º cuatri\programacion 6\Santa Ramona\FrontSantaRamona\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.PruebaFront.props
+C:\Users\Atila\Documents\pri facu\3º año - 2º cuatri\programacion 6\Santa Ramona\FrontSantaRamona\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Atila\Documents\pri facu\3º año - 2º cuatri\programacion 6\Santa Ramona\FrontSantaRamona\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Atila\Documents\pri facu\3º año - 2º cuatri\programacion 6\Santa Ramona\FrontSantaRamona\obj\Debug\net8.0\PruebaFront.dll
+C:\Users\Atila\Documents\pri facu\3º año - 2º cuatri\programacion 6\Santa Ramona\FrontSantaRamona\obj\Debug\net8.0\refint\PruebaFront.dll
+C:\Users\Atila\Documents\pri facu\3º año - 2º cuatri\programacion 6\Santa Ramona\FrontSantaRamona\obj\Debug\net8.0\PruebaFront.pdb
+C:\Users\Atila\Documents\pri facu\3º año - 2º cuatri\programacion 6\Santa Ramona\FrontSantaRamona\obj\Debug\net8.0\PruebaFront.genruntimeconfig.cache
+C:\Users\Atila\Documents\pri facu\3º año - 2º cuatri\programacion 6\Santa Ramona\FrontSantaRamona\obj\Debug\net8.0\ref\PruebaFront.dll

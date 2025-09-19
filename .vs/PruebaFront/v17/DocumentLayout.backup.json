@@ -3,7 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\Atila\\Documents\\pri facu\\3\u00BA a\u00F1o - 2\u00BA cuatri\\programacion 6\\Santa Ramona\\FrontSantaRamona\\",
   "Documents": [
     {
-<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{EBFD97C5-E033-45FE-AE0B-8A070CABD4AD}|PruebaFront.csproj|c:\\users\\atila\\documents\\pri facu\\3\u00BA a\u00F1o - 2\u00BA cuatri\\programacion 6\\santa ramona\\frontsantaramona\\wwwroot\\css\\stylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{EBFD97C5-E033-45FE-AE0B-8A070CABD4AD}|PruebaFront.csproj|solutionrelative:wwwroot\\css\\stylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -13,17 +12,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{EBFD97C5-E033-45FE-AE0B-8A070CABD4AD}|PruebaFront.csproj|c:\\users\\atila\\documents\\pri facu\\3\u00BA a\u00F1o - 2\u00BA cuatri\\programacion 6\\santa ramona\\frontsantaramona\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-=======
-      "AbsoluteMoniker": "D:0:0:{EBFD97C5-E033-45FE-AE0B-8A070CABD4AD}|PruebaFront.csproj|c:\\frontsanta\\frontsanta\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EBFD97C5-E033-45FE-AE0B-8A070CABD4AD}|PruebaFront.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBFD97C5-E033-45FE-AE0B-8A070CABD4AD}|PruebaFront.csproj|c:\\frontsanta\\frontsanta\\wwwroot\\css\\stylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{EBFD97C5-E033-45FE-AE0B-8A070CABD4AD}|PruebaFront.csproj|solutionrelative:wwwroot\\css\\stylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBFD97C5-E033-45FE-AE0B-8A070CABD4AD}|PruebaFront.csproj|c:\\frontsanta\\frontsanta\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
->>>>>>> Stashed changes
       "RelativeMoniker": "D:0:0:{EBFD97C5-E033-45FE-AE0B-8A070CABD4AD}|PruebaFront.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -34,11 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-<<<<<<< Updated upstream
           "SelectedChildIndex": 5,
-=======
-          "SelectedChildIndex": 2,
->>>>>>> Stashed changes
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,37 +46,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "StyleSheet.css",
               "DocumentMoniker": "C:\\Users\\Atila\\Documents\\pri facu\\3\u00BA a\u00F1o - 2\u00BA cuatri\\programacion 6\\Santa Ramona\\FrontSantaRamona\\wwwroot\\css\\StyleSheet.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\StyleSheet.css",
               "ToolTip": "C:\\Users\\Atila\\Documents\\pri facu\\3\u00BA a\u00F1o - 2\u00BA cuatri\\programacion 6\\Santa Ramona\\FrontSantaRamona\\wwwroot\\css\\StyleSheet.css",
               "RelativeToolTip": "wwwroot\\css\\StyleSheet.css",
-<<<<<<< Updated upstream
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAADAAAAAQAAAAAAAAAA==",
-=======
-              "ViewState": "AgIAAFYAAAAAAAAAAAAAAKkBAAABAAAAAAAAAA==",
->>>>>>> Stashed changes
+              "ViewState": "AgIAADkAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-09-13T22:27:02.157Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Atila\\Documents\\pri facu\\3\u00BA a\u00F1o - 2\u00BA cuatri\\programacion 6\\Santa Ramona\\FrontSantaRamona\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\Atila\\Documents\\pri facu\\3\u00BA a\u00F1o - 2\u00BA cuatri\\programacion 6\\Santa Ramona\\FrontSantaRamona\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-<<<<<<< Updated upstream
               "ViewState": "AgIAAIQAAAAAAAAAAAAAAKUAAAAOAAAAAAAAAA==",
-=======
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAVAAAAAAAAAA==",
->>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-20T22:34:16.395Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-20T22:34:16.395Z"
             },
             {
               "$type": "Document",
