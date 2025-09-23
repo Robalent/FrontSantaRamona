@@ -23,17 +23,18 @@
                 <ul class="nav">
                     <li><a href="#inicio">Inicio</a></li>
                     <li><a href="#nosotros">Nosotros</a></li>
-                    <li><a href="#adoptar">Adoptar</a></li>
+                    <li><a href="/Home/Adopcion">Adoptar</a></li>
                     <li><a href="/Home/Voluntariado">Voluntariado</a></li>
                    @*  <li><a href="#como-ayudar">Cómo ayudar</a></li>
                     <li><a href="#faqs">FAQs</a></li> *@
                 </ul>
             </nav>
-            <a class="btn magenta" href="#donar">DONAR</a>
+            @* <a class="btn magenta" href="/Home/Donar">DONAR</a> *@
+            <a class="btn magenta" asp-controller="Home" asp-action="Donar">DONAR</a>
         </div>
     </header>
-
-    <!-- Hero -->
+     
+        <!-- Hero -->
     <section class="hero" id="inicio" role="banner" aria-label="Campaña de tránsitos">
         <div class="media" aria-hidden="true">
             <img src="images/gatoperro.jpg" alt="Perro de fondo" />
@@ -168,6 +169,7 @@
 
     <!--botón para subir-->
     <a class="btn top" href="#top">↑</a>
+    
 
     <!-- CTA Final -->
     <section class="cta" aria-labelledby="cta-title">

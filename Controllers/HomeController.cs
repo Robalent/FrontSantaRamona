@@ -28,6 +28,17 @@ namespace PruebaFront.Controllers
             return View();
         }
 
+        public IActionResult Donar()
+        {
+            return View();
+        }
+
+        public IActionResult Adopcion()
+        {
+            return View();
+        }
+
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
