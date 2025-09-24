@@ -21,7 +21,10 @@
 }
 
 html, body {
-    height: 100%
+    height: 100%;
+
+    /* AGREGUE */
+    margin: 0; /* Quitamos márgenes por defecto del body */
 }
 
 body {
@@ -30,7 +33,10 @@ body {
     color: var(--text);
     font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, "Helvetica Neue", Arial, "Apple Color Emoji","Segoe UI Emoji";
     line-height: 1.55;
-    
+    /* AGREGUE */
+    display: flex;              /* Convertimos el body en un contenedor flex */
+    flex-direction: column;     /* Organizamos los hijos (header, main, footer) en columna */
+  /* Esto permite que el footer se "empuje" hacia abajo usando flex:1 en el main */
 }
 
 
@@ -72,7 +78,7 @@ a {
     top: 0;
     z-index: 50;
     /*backdrop-filter: saturate(1.2) blur(6px)*/
-    background-color: white;
+    background-color: white; 
 }
 
     .site-header .inner {
@@ -163,7 +169,8 @@ nav {
 .hero {
     position: relative;
     overflow: hidden;
-    isolation: isolate
+    isolation: isolate;
+    min-height: 40vh; /* asegura que .hero tenga altura */
 }
 
     .hero .media {
@@ -435,9 +442,8 @@ footer {
     margin-top:0;
 }
 
-
-/* Responsive */
-media (max-width: 960px) {
+    /* Responsive */
+    media (max-width: 960px) {
     .news-grid
 
 {

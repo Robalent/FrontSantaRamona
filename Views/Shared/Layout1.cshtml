@@ -32,7 +32,10 @@
             <a class="btn magenta" asp-controller="Home" asp-action="Donar">DONAR</a>
         </div>
     </header>
+
+
    
+
     <!-- Contenido dinámico -->
     <main class="container">
         @RenderBody()
@@ -42,7 +45,7 @@
     @RenderSection("ExtraContent", required: false) 
 
     <!-- Footer -->
-    <footer>
+    <footer >
         <small>© <span id="year"></span> Santa Ramona · Protectora de Animales</small>
     </footer>
 
