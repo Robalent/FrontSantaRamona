@@ -25,7 +25,16 @@ namespace PruebaFront.Controllers
 
         public IActionResult Voluntariado()
         {
-            return View();
+            // Datos de prueba (mock)
+            var voluntariados = new List<VoluntariadoInfo>
+        {
+            new VoluntariadoInfo { Id = 1, Texto = "Ser mayor de 18 años", ImagenUrl = "/images/juancito.jpg" },
+            new VoluntariadoInfo { Id = 2, Texto = "Disponibilidad fines de semana", ImagenUrl = "/images/nina.jpg" },
+            new VoluntariadoInfo { Id = 3, Texto = "Amor por los animales", ImagenUrl = "/images/sasha.jpg" }
+        };
+
+            // Esto lo enviás a la vista
+            return View(voluntariados);
         }
 
         public IActionResult Donar()

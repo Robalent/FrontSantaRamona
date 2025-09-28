@@ -3,31 +3,85 @@
 	Layout = "Layout1";
 }
 
+<style>
+
+    h1{
+        text-align:center;
+        color: #C23A79;
+    }
+    /*Prueba Voluntariado*/
+    .voluntariados-container {
+        display: flex;
+        flex-direction: column;
+        gap: 40px; /* separación entre bloques */
+        max-width: 1000px;
+        margin: 0 auto;  /*centrar en la página */
+        padding: 20px;
+        background-color: var(--bg);
+    }
+
+    .voluntariado-item {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        background-color: #C23A79;
+        border-radius:12px;
+        width:800px;
+    }
+
+        /* cuando la clase es "left": imagen izquierda */
+        .voluntariado-item.left {
+            flex-direction: row;
+            margin-left:10px;
+            margin-right:auto;
+        }
+
+        /* cuando la clase es "right": imagen derecha */
+        .voluntariado-item.right {
+            flex-direction: row-reverse;
+            margin-left:auto;
+            margin-right:0px;
+        }
+
+    .img-voluntariado {
+        width: 150px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    .texto-voluntariado {
+        flex: 1;
+        font-size:larger;
+        line-height: 1.6;
+        color: black;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+</style>
+
+@model List<PruebaFront.Models.VoluntariadoInfo>
+
 <h1>Voluntariados </h1>
-<p>
-	Lorem ipsum dolor sit amet consectetur adipiscing elit cras class vehicula, vel curabitur praesent habitant ad nulla inceptos neque. Orci vitae tempor est vel erat penatibus class id, felis dictum ullamcorper luctus bibendum ornare feugiat, blandit per ante habitasse condimentum quisque nostra. Gravida montes vulputate ante facilisis venenatis curabitur suspendisse nascetur, ridiculus natoque morbi consequat aliquet himenaeos fames, phasellus ultricies accumsan litora maecenas eu feugiat.
+<p>Acá encontraras todos los requisitos necesarios que se deben cumplir para poder ser voluntario de Santa Ramona: </p>
 
-	Convallis phasellus ut dui iaculis nascetur diam rutrum, litora lacinia odio vulputate aenean nibh tristique suscipit, bibendum curabitur dis platea tincidunt aliquam. Himenaeos turpis ac tincidunt magnis suspendisse pretium elementum, penatibus malesuada cum conubia vivamus sollicitudin urna, consequat pharetra dui pulvinar faucibus diam. Pharetra porta risus faucibus vehicula inceptos vivamus nostra senectus, in metus aliquet imperdiet magna rhoncus morbi, dis magnis sagittis class dictumst maecenas consequat.
-</p>
+<div class="voluntariados-container">
+    @for (int i = 0; i < Model.Count; i++)
+    {
+        var v = Model[i];
+        <div class="voluntariado-item @(i % 2 == 0 ? "left" : "right")">
+            <img src="@v.ImagenUrl" alt="Imagen voluntariado" class="img-voluntariado" /> @* v.ImagenUrl es en nombre del campo de la bdd/models*@
+           <div>
+                <div class="texto-voluntariado">
+                    <p>@v.Texto</p> @* v.Texto es el nombre del campo de la bdd/model *@
+                </div>
+           </div>
+        </div>
+       
 
-<br />
- <p>
-    Lorem ipsum dolor sit amet consectetur adipiscing elit cras class vehicula, vel curabitur praesent habitant ad nulla inceptos neque. Orci vitae tempor est vel erat penatibus class id, felis dictum ullamcorper luctus bibendum ornare feugiat, blandit per ante habitasse condimentum quisque nostra. Gravida montes vulputate ante facilisis venenatis curabitur suspendisse nascetur, ridiculus natoque morbi consequat aliquet himenaeos fames, phasellus ultricies accumsan litora maecenas eu feugiat.
-
-    Convallis phasellus ut dui iaculis nascetur diam rutrum, litora lacinia odio vulputate aenean nibh tristique suscipit, bibendum curabitur dis platea tincidunt aliquam. Himenaeos turpis ac tincidunt magnis suspendisse pretium elementum, penatibus malesuada cum conubia vivamus sollicitudin urna, consequat pharetra dui pulvinar faucibus diam. Pharetra porta risus faucibus vehicula inceptos vivamus nostra senectus, in metus aliquet imperdiet magna rhoncus morbi, dis magnis sagittis class dictumst maecenas consequat.
-</p>
-<br /> 
-@* <p>
-    Lorem ipsum dolor sit amet consectetur adipiscing elit cras class vehicula, vel curabitur praesent habitant ad nulla inceptos neque. Orci vitae tempor est vel erat penatibus class id, felis dictum ullamcorper luctus bibendum ornare feugiat, blandit per ante habitasse condimentum quisque nostra. Gravida montes vulputate ante facilisis venenatis curabitur suspendisse nascetur, ridiculus natoque morbi consequat aliquet himenaeos fames, phasellus ultricies accumsan litora maecenas eu feugiat.
-
-    Convallis phasellus ut dui iaculis nascetur diam rutrum, litora lacinia odio vulputate aenean nibh tristique suscipit, bibendum curabitur dis platea tincidunt aliquam. Himenaeos turpis ac tincidunt magnis suspendisse pretium elementum, penatibus malesuada cum conubia vivamus sollicitudin urna, consequat pharetra dui pulvinar faucibus diam. Pharetra porta risus faucibus vehicula inceptos vivamus nostra senectus, in metus aliquet imperdiet magna rhoncus morbi, dis magnis sagittis class dictumst maecenas consequat.
-</p>
-<br />
-<p>
-    Lorem ipsum dolor sit amet consectetur adipiscing elit cras class vehicula, vel curabitur praesent habitant ad nulla inceptos neque. Orci vitae tempor est vel erat penatibus class id, felis dictum ullamcorper luctus bibendum ornare feugiat, blandit per ante habitasse condimentum quisque nostra. Gravida montes vulputate ante facilisis venenatis curabitur suspendisse nascetur, ridiculus natoque morbi consequat aliquet himenaeos fames, phasellus ultricies accumsan litora maecenas eu feugiat.
-
-    Convallis phasellus ut dui iaculis nascetur diam rutrum, litora lacinia odio vulputate aenean nibh tristique suscipit, bibendum curabitur dis platea tincidunt aliquam. Himenaeos turpis ac tincidunt magnis suspendisse pretium elementum, penatibus malesuada cum conubia vivamus sollicitudin urna, consequat pharetra dui pulvinar faucibus diam. Pharetra porta risus faucibus vehicula inceptos vivamus nostra senectus, in metus aliquet imperdiet magna rhoncus morbi, dis magnis sagittis class dictumst maecenas consequat.
-</p> *@
+    }
+</div>
 
 @section ExtraContent {
     <!-- CTA Final -->
