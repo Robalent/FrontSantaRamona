@@ -9,6 +9,16 @@ node_modules/
 .DS_Store
 Thumbs.db
 
+# --- C# / .NET BUILD OUTPUTS (AÑADE ESTO) ---
+# Carpetas de compilación
+[Bb]in/
+[Oo]bj/
+
+# Archivos generados
+*.dll
+*.pdb
+*.exe
+
 # Archivos temporales
 *.log
 *.tmp
