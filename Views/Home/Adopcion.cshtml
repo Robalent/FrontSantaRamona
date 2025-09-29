@@ -1,7 +1,81 @@
-﻿@{
-	ViewData["Title"] = "Adopcion";
-	Layout = "Layout1";
+﻿@model IEnumerable<FrontSantaRamona.AdopcionModels.Adopcion>
+
+@{
+    ViewData["Title"] = "Adopcion";
+    Layout = "Layout1";
 }
 
 <h1>Adoptar</h1>
 <br />
+
+<div class="pets-grid">
+    @foreach (var mascota in Model)
+    {
+        <div class="pet-card">
+            <div class="pet-image">
+                <img src="@mascota.ImagenUrl" alt="@mascota.Nombre" />
+            </div>
+            <div class="pet-info">
+                <h3>@mascota.Nombre</h3>
+                <p><strong>Edad:</strong> @mascota.Edad</p>
+                <p><strong>Raza:</strong> @mascota.Raza</p>
+                <p><strong>Estado:</strong> @mascota.Estado</p>
+                <a href="/FormularioAdopcion/@mascota.Id" class="adopt-btn">Adoptar</a>
+            </div>
+        </div>
+    }
+</div>
+
+
+<style>
+    .pets-grid {
+        display: flex;
+        flex-wrap: wrap; /* permite que las tarjetas bajen a la siguiente fila si no caben */
+        gap: 20px; /* espacio entre tarjetas */
+        justify-content: flex-start; /* alinea las tarjetas a la izquierda */
+    }
+
+    .pet-card {
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        width: 200px;
+        padding: 10px;
+        text-align: center;
+        box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* centra contenido dentro de la tarjeta */
+        background-color: #6DD6D1; /* fondo celeste para toda la tarjeta */
+        color: white; /* <- AQUI van las letras blancas */
+    }
+
+        .pet-card img {
+            display: block;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 10px; /* espacio entre imagen y texto */
+        }
+
+    .pet-info {
+        margin-top: 0px; /* ya hay margen por margin-bottom de la imagen */
+    }
+
+    .adopt-btn {
+        display: inline-block;
+        padding: 5px 10px;
+        margin-top: 5px;
+        background-color: white;
+        color: #218838;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+        .adopt-btn:hover {
+            background-color: white;
+        }
+</style>
+
+
+
