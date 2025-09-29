@@ -472,9 +472,9 @@ footer {
     flex-direction: column;
     gap: 40px; /* separación entre bloques */
     max-width: 1000px;
-    margin: 0 auto; /* centrar en la página */
+    margin: 0 auto; /*centrar en la página */
     padding: 20px;
-    background-color: #6DD6D1;
+    background-color: var(--bg);
 }
 
 .voluntariado-item {
@@ -482,16 +482,22 @@ footer {
     align-items: center;
     gap: 30px;
     background-color: #C23A79;
+    border-radius: 12px;
+    width: 800px;
 }
 
     /* cuando la clase es "left": imagen izquierda */
     .voluntariado-item.left {
         flex-direction: row;
+        margin-left: 10px;
+        margin-right: auto;
     }
 
     /* cuando la clase es "right": imagen derecha */
     .voluntariado-item.right {
         flex-direction: row-reverse;
+        margin-left: auto;
+        margin-right: 0px;
     }
 
 .img-voluntariado {
@@ -504,10 +510,10 @@ footer {
 
 .texto-voluntariado {
     flex: 1;
-    font-size: 1.1rem;
+    font-size: larger;
     line-height: 1.6;
-    color: #333;
-    font-family:Algerian;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
