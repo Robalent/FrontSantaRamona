@@ -4,4 +4,51 @@
 }
 
 <h1>Donaciones</h1>
-<br />
+<div class="donar-row">
+    <div class="box-donar">
+        <h2>Donar  Insumos</h2>
+    </div>
+    <div class="box-donar">
+        <h2>Donar  Dinero</h2>
+    </div>
+</div>
+
+
+<!-- Donar -->
+<style>
+
+    h1 {
+        text-align: center;
+        color: #C23A79;
+    }
+
+    .donar-row {
+        display: flex;
+        gap: 2px;/* separación entre cajas */
+        justify-content: center; /* centra horizontalmente */
+        flex-wrap: wrap; /* permite bajar a la siguiente línea en pantallas pequeñas */
+        padding: 20px 10px; /* espacio alrededor opcional */
+    }
+
+    .box-donar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 500px;
+        height: 600px;
+        background-color: white;
+        margin: 20px auto;
+        box-shadow: 0 0 40px 0 rgba(0,0,0,.2);
+        border-radius: 10px; /* opcional, se ve más lindo */
+    }
+
+    .box-donar h2 {
+        color: #C23A79;
+        margin: 0;
+    }
+
+
+
+</style>
+<!-- fin donar -->
+ 
