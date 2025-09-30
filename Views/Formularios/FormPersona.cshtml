@@ -1,0 +1,174 @@
+﻿@{
+	ViewData["Title"] = "Formulario Persona";
+	Layout = "~/Views/Shared/Layout1.cshtml";
+}
+
+<style>
+	body {
+		font-family: Arial, sans-serif;
+		background: #f8f9fa;
+		display: flex;
+		justify-content: center;
+		padding: 40px;
+	}
+
+	.form-container {
+		background: #fff;
+		border-radius: 10px;
+		padding: 20px 30px;
+		max-width: 600px;
+		width: 100%;
+		box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+	}
+
+		.form-container h2 {
+			text-align: center;
+			margin-bottom: 20px;
+			color: #333;
+		}
+
+	.form-group {
+		margin-bottom: 15px;
+	}
+
+	label {
+		display: block;
+		margin-bottom: 6px;
+		font-weight: bold;
+		color: #444;
+	}
+
+	input, select, textarea {
+		width: 100%;
+		padding: 8px 10px;
+		border: 1px solid #ccc;
+		border-radius: 6px;
+		font-size: 14px;
+	}
+
+		input:focus, textarea:focus {
+			border-color: #007bff;
+			outline: none;
+		}
+
+	.form-row {
+		display: flex;
+		gap: 15px;
+	}
+
+		.form-row .form-group {
+			flex: 1;
+		}
+
+	button {
+		width: 100%;
+		padding: 10px;
+		border: none;
+		background: #C23A79;
+		color: #2DB8B5;
+		font-size: 16px;
+		border-radius: 6px;
+		cursor: pointer;
+	}
+
+		button:hover {
+			background: #C23A79;
+		}
+</style>
+
+<div>
+	<h2>Datos Personales</h2>
+	<form action="/api/persona" method="post">
+		<div class="form-row">
+			<div class="form-group">
+
+				<label for="nombre">Nombre:</label>
+				<input type="text" name="nombre" id="nombre" required />
+
+			</div>
+			<div class="form-group">
+
+				<label for="apellido">Apellido:</label>
+				<input type="text" name="apellido" id="apellido" required/>
+
+			</div>
+		</div>
+
+		<div class="form-row">
+			<div class="form-group">
+
+				<label for="dni">DNI:</label>
+				<input type="number" name="dni" id="dni" required />
+
+			</div>
+			<div class="form-group">
+
+				<label for="fechaNacimiento">Fecha de Nacimiento:</label>
+				<input type="date" name="fechaNacimiento" id="fechaNacimiento" required/>
+
+			</div>
+		</div>
+
+		<div class="form-group">
+
+			<label for="email">Correo Electrónico:</label>
+			<input type="email" name="email" id="email" />
+
+		</div>
+
+		<div class="form-row">
+			<div class="form-group">
+
+				<label for="calle">Calle:</label>
+				<input type="text" name="calle" id="calle" />
+
+			</div>
+			<div class="form-group">
+
+				<label for="altura">Altura:</label>
+				<input type="text" name="altura" id="altura" />
+
+			</div>
+		</div>
+
+		<div class="form-row">
+			<div class="form-group">
+
+				<label for="departamento">Departamento:</label>
+				<input type="text" name="departamento" id="departamento"  />
+
+			</div>
+			<div class="form-group">
+
+				<label for="barrio">Barrio:</label>
+				<input type="text" name="barrio" id="barrio" />
+
+			</div>
+		</div>
+
+		<div class="form-row">
+			<div class="form-group">
+
+				<label for="partido">Partido:</label>
+				<input type="text" name="partido" id="partido" />
+
+			</div>
+			<div class="form-group">
+
+				<label for="provincia">Provincia:</label>
+				<input type="text" name="provincia" id="provincia" />
+
+			</div>
+		</div>
+
+		<div class="form-group">
+
+			<label for="redesSociales">Redes Sociales:</label>
+			<input type="text" name="redesSociales" id="redesSociales" placeholder="usuario"/>
+
+		</div>
+
+		<button type="submit"> Guardar</button>
+
+	</form>
+</div>

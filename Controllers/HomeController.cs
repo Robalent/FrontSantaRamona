@@ -24,6 +24,11 @@ namespace PruebaFront.Controllers
             return View();
         }
 
+        public IActionResult FormPersona()
+        {
+            return View("~/Views/Formularios/FormPersona.cshtml");
+        }
+
         public IActionResult Voluntariado()
         {
             // Datos de prueba (mock)
