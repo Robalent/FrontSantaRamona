@@ -1,0 +1,91 @@
+﻿@model FrontSantaRamona.AdopcionModels.Adopcion
+
+@{
+    ViewData["Title"] = "Detalle de Mascota";
+    Layout = "~/Views/Shared/Layout1.cshtml";
+}
+
+<h1>Detalle de @Model.Nombre</h1>
+
+<div class="pet-detail-container">
+    <!-- Foto a la izquierda -->
+    <div class="pet-detail-image">
+        <img src="@Model.ImagenUrl" alt="@Model.Nombre" />
+    </div>
+
+    <!-- Info a la derecha -->
+    <div class="pet-detail-info">
+        <p><strong>Nombre:</strong> @Model.Nombre</p>
+        <p><strong>Edad:</strong> @Model.Edad</p>
+        <p><strong>Raza:</strong> @Model.Raza</p>
+        <p><strong>Estado:</strong> @Model.Estado</p>
+
+        <a href="/FormularioAdopcion/@Model.Id" class="btn primary">Adoptar</a>
+
+    </div>
+</div>
+
+<style>
+    .pet-detail-container {
+        display: flex;
+        max-width: 800px;
+        margin: 30px auto;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+    }
+
+    .pet-detail-image img {
+        width: 350px;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .pet-detail-info {
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start; /* mueve el texto hacia arriba */
+        margin: 5px 0; /* arriba y abajo */
+    }
+
+    /* Media query dentro del <style> */
+        @@media (max-width: 768px) {
+        .pet-detail-container
+
+    {
+        flex-direction: column;
+    }
+
+    .pet-detail-image img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .pet-detail-info {
+        padding: 15px;
+    }
+
+        .btn.primary {
+            margin-top: auto; /* lo empuja hacia abajo dentro del contenedor flex */
+            align-self: center; /* centra el botón horizontalmente */
+            padding: 10px 20px;
+            background: var(--teal);
+            color: white;
+            box-shadow: var(--shadow);
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.2s;
+        }
+
+        .btn.primary:hover {
+                background: #009a84;
+        }
+
+
+</style>
+
+

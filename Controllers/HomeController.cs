@@ -50,13 +50,23 @@ namespace PruebaFront.Controllers
 
         public IActionResult Adopcion()
         {
+            // Si no querés mostrar lista, podés dejar vacío o redirigir a InfoAdopcion
+            return View();
+        }
+
+        public IActionResult InfoAdopcion(int id)
+        {
             var mascotas = new List<Adopcion>
     {
         new Adopcion { Id = 1, Nombre = "Luna", Edad = "2 años", Estado = "Vacunada", Raza = "Labrador", ImagenUrl = "/images/adoptados/Labrador.luna.jpg" },
         new Adopcion { Id = 2, Nombre = "Max", Edad = "3 años", Estado = "Castrado", Raza = "Beagle", ImagenUrl = "/images/adoptados/Beagle.max.jpg" }
     };
 
-            return View(mascotas); // Busca Views/Home/Adopcion.cshtml
+            var mascotaSeleccionada = mascotas.FirstOrDefault(m => m.Id == id);
+            if (mascotaSeleccionada == null)
+                return NotFound();
+
+            return View(mascotaSeleccionada);
         }
 
 

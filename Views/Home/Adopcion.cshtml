@@ -1,81 +1,68 @@
-﻿@model IEnumerable<FrontSantaRamona.AdopcionModels.Adopcion>
-
-@{
+﻿@{
     ViewData["Title"] = "Adopcion";
     Layout = "~/Views/Shared/Layout1.cshtml";
 }
 
 <h1>Adoptar</h1>
-<br />
+<p>Selecciona un perro para ver más información:</p>
 
 <div class="pets-grid">
-    @foreach (var mascota in Model)
-    {
-        <div class="pet-card">
-            <div class="pet-image">
-                <img src="@mascota.ImagenUrl" alt="@mascota.Nombre" />
-            </div>
-            <div class="pet-info">
-                <h3>@mascota.Nombre</h3>
-                <p><strong>Edad:</strong> @mascota.Edad</p>
-                <p><strong>Raza:</strong> @mascota.Raza</p>
-                <p><strong>Estado:</strong> @mascota.Estado</p>
-                <a href="/FormularioAdopcion/@mascota.Id" class="adopt-btn">Adoptar</a>
-            </div>
-        </div>
-    }
-</div>
+    <a href="@Url.Action("InfoAdopcion", "Home", new { id = 1 })" class="pet-card">
+        <img src="/images/adoptados/Labrador.luna.jpg" alt="Luna" />
+        <div class="pet-info">Luna</div>
+    </a>
 
+    <a href="@Url.Action("InfoAdopcion", "Home", new { id = 2 })" class="pet-card">
+        <img src="/images/adoptados/Beagle.max.jpg" alt="Max" />
+        <div class="pet-info">Max</div>
+    </a>
+</div>
 
 <style>
     .pets-grid {
         display: flex;
-        flex-wrap: wrap; /* permite que las tarjetas bajen a la siguiente fila si no caben */
-        gap: 20px; /* espacio entre tarjetas */
-        justify-content: flex-start; /* alinea las tarjetas a la izquierda */
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: flex-start;
     }
 
     .pet-card {
-        border: 1px solid #ccc;
+        width: 400px;
+        height: 400px;
         border-radius: 10px;
-        width: 200px;
-        padding: 10px;
-        text-align: center;
-        box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+        background-color: #ffffff;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
         display: flex;
         flex-direction: column;
-        align-items: center; /* centra contenido dentro de la tarjeta */
-        background-color: #6DD6D1; /* fondo celeste para toda la tarjeta */
-        color: white; /* AQUI van las letras blancas */
+        align-items: center;
+        justify-content: flex-start;
+        text-align: center;
+        padding: 5px;
+        cursor: pointer;
+        transition: transform 0.2s, box-shadow 0.2s;
+        overflow: hidden;
+        text-decoration: none;
+        color: inherit;
     }
 
+        .pet-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+        }
+
         .pet-card img {
-            display: block;
-            width: 150px;
-            height: 150px;
+            width: 70%;
+            height: 360px;
             object-fit: cover;
-            border-radius: 10px;
-            margin-bottom: 10px; /* espacio entre imagen y texto */
+            border-radius: 5px;
+            margin-bottom: 5px;
         }
 
     .pet-info {
-        margin-top: 0px; /* ya hay margen por margin-bottom de la imagen */
+        font-family: Nunito, sans-serif;
+        font-weight: 800;
+        font-size: 20px;
+        margin-bottom: 6px;
+        
     }
-
-    .adopt-btn {
-        display: inline-block;
-        padding: 5px 10px;
-        margin-top: 5px;
-        background-color: white;
-        color: #218838;
-        text-decoration: none;
-        border-radius: 5px;
-    }
-
-        .adopt-btn:hover {
-            background-color: white;
-        }
 </style>
-
-
-
