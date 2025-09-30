@@ -5,11 +5,49 @@
 
 <h1>Donaciones</h1>
 <div class="donar-row">
+    
+        
     <div class="box-donar">
         <h2>Donar  Insumos</h2>
+        <details>
+            <summary> ¿Que insumos Donar?  </summary>
+            <ul>
+                <li>Bebida</li>
+                <li>Snack</li>
+            </ul>
+        </details>
+        <details>
+            <summary>  Medicacion  </summary>
+            <ul>
+                <li>Bebida</li>
+                <li>Snack</li>
+            </ul>
+        </details>
     </div>
+   
+
+
+
     <div class="box-donar">
         <h2>Donar  Dinero</h2>
+        <details>
+            <summary>  Mercado pago  </summary>
+            <ul>
+                <li><a href="https://linktr.ee/SantaRamona?ltsid=45dd17f6-4563-46bc-abd6-4da25b88e3ad" target="_blank">lINK MERCADO PAGO</a></li>
+                <li> MAIL: santaramonaprotectora@gmail.com </li>
+            </ul>
+        </details>
+        <details>
+            <summary>  Banco Ciudad  </summary>
+            <ul>
+                <li> CUENTA CAJA DE AHORRO: 000001110201685844 </li>
+                <li> TITULAR: Sierra María José </li>
+                <li> CBU: 0290000110000016858443 </li>
+                <li> CUIT/CUIL: 20-28496562-1 </li>
+                <li> ALIAS: SANTA.RAMONA </li>
+                <li> MAIL: santaramonaprotectora@gmail.com </li>
+            </ul>
+        </details>
     </div>
 </div>
 
@@ -30,25 +68,40 @@
         padding: 20px 10px; /* espacio alrededor opcional */
     }
 
+    details {
+        background-color: #178C94;
+        border: 0px solid #ddd;
+        margin: 30px;
+        border-radius: 5px;
+        
+    }
+
+    summary {
+        background-color: transparent;
+        padding: 9px;
+        color:white;
+    }
     .box-donar {
         display: flex;
-        align-items: center;
-        justify-content: center;
+        flex-direction: column; /* apila elementos de arriba hacia abajo */
+        align-items: center; /* centra horizontalmente */
+        justify-content: flex-start; /* los deja arriba de la caja */
         width: 500px;
-        height: 600px;
+        min-height: 300px;
         background-color: white;
         margin: 20px auto;
         box-shadow: 0 0 40px 0 rgba(0,0,0,.2);
         border-radius: 10px; /* opcional, se ve más lindo */
+        padding: 10px;
     }
 
     .box-donar h2 {
         color: #C23A79;
-        margin: 0;
+        margin: 20px;
+
     }
 
-
-
+ 
 </style>
 <!-- fin donar -->
  
