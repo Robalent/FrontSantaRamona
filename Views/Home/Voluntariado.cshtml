@@ -6,7 +6,7 @@
  <style>
 
     h1{
-        text-align:center;
+        text-align:start;
         color: #C23A79;
     }
     /*Prueba Voluntariado*/
@@ -61,15 +61,55 @@
         color: black;
         font-family: 'Times New Roman', Times, serif
     }
+
+    .vol-container{
+        display: grid;
+        border-radius: 15px;
+        background-color: white;
+        justify-content: start;
+        box-shadow: 6px 6px 6px #5c6b6a2e;
+        width: 800px;
+        height:auto;
+    }
+
+    .req-vol{
+        display:flex;
+        border-radius:10px;
+        box-shadow: 5px #C23A79;
+    }
     
 </style> 
 
 @model List<PruebaFront.Models.VoluntariadoInfo>
 
-<h1>Voluntariados </h1>
+@* <!-- Hero -->
+<section class="hero" id="inicio" role="banner" aria-label="Campaña de tránsitos">
+    <div class="media" aria-hidden="true">
+        <img src="~/images/perrogato.png" alt="Perro de fondo" />
+    </div>
+    <div class="content">
+        <h1 class="kicker">Voluntariados</h1>
+        <p class="sub">Un pequeño gesto, una gran huella </p>
+    </div>
+</section> *@
+<h1>Voluntariados</h1>
 <p>Acá encontraras todos los requisitos necesarios que se deben cumplir para poder ser voluntario de Santa Ramona: </p>
 
-<div class="voluntariados-container">
+<h1>Requisitos</h1>
+<div class="vol-container">
+    <div class="req-vol">
+        <p>
+            <ul>
+                <li>Ser mayor de 18 años </li>
+                <li>Amar a los animales</li>
+                <li>Disponibilidad horaria</li>
+            </ul>
+        </p>
+    </div>
+</div>
+
+
+@* <div class="voluntariados-container">
     @for (int i = 0; i < Model.Count; i++)
     {
         var v = Model[i];
@@ -82,7 +122,7 @@
             </div>
         </div>
     }
-</div>
+</div> *@
 
 @section ExtraContent {
     <!-- CTA Final -->
