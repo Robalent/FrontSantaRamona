@@ -1,21 +1,32 @@
-﻿@{
+﻿@using System.Text.Json
+@{
     ViewData["Title"] = "Adopcion";
     Layout = "~/Views/Shared/Layout1.cshtml";
+
+    var perros = new[]
+    {
+        new { Id = 1, Nombre="Luna", Raza="Labrador", Img="/images/adoptados/Labrador.luna.jpg" },
+        new { Id = 2, Nombre="Max", Raza="Beagle", Img="/images/adoptados/Beagle.max.jpg" },
+        new { Id = 3, Nombre="Onix", Raza="Caniche", Img="/images/adoptados/Caniche.onix.jpg" },
+        new { Id = 4, Nombre="Toby", Raza="Caniche", Img="/images/adoptados/Caniche.toby.jpg" },
+        new { Id = 5, Nombre="Coco", Raza="Caniche", Img="/images/adoptados/Caniche.coco.jpeg" },
+        new { Id = 6, Nombre="Rocco", Raza="Mestizo", Img="/images/adoptados/Mestizo.rocco.jpeg" },
+        new { Id = 7, Nombre="Maya", Raza="Mestizo", Img="/images/adoptados/Mestizo.maya.jpeg" },
+        new { Id = 8, Nombre="Simba", Raza="Mestizo", Img="/images/adoptados/Mestizo.simba.jpeg" },
+        new { Id = 9, Nombre="Iris", Raza="Mestizo", Img="/images/adoptados/Mestizo.iris.jpeg" },
+        new { Id = 10, Nombre="Odin", Raza="Mestizo", Img="/images/adoptados/Mestizo.odin.jpeg" }
+    };
 }
 
 <h1>Adoptar</h1>
 <p>Selecciona un perro para ver más información:</p>
 
-<div class="pets-grid">
-    <a href="@Url.Action("InfoAdopcion", "Home", new { id = 1 })" class="pet-card">
-        <img src="/images/adoptados/Labrador.luna.jpg" alt="Luna" />
-        <div class="pet-info">Luna</div>
-    </a>
+<div class="pets-grid" id="petsGrid"></div>
 
-    <a href="@Url.Action("InfoAdopcion", "Home", new { id = 2 })" class="pet-card">
-        <img src="/images/adoptados/Beagle.max.jpg" alt="Max" />
-        <div class="pet-info">Max</div>
-    </a>
+<div class="pagination" style="margin-top: 20px; text-align: center;">
+    <button id="prevPageBtn">Página anterior</button>
+    <span id="pageInfo" style="margin: 0 10px;"></span>
+    <button id="nextPageBtn">Siguiente página</button>
 </div>
 
 <style>
@@ -23,7 +34,7 @@
         display: flex;
         flex-wrap: wrap;
         gap: 15px;
-        justify-content: flex-start;
+        justify-content: center; /* Centra las tarjetas horizontalmente */
     }
 
     .pet-card {
@@ -63,6 +74,59 @@
         font-weight: 800;
         font-size: 20px;
         margin-bottom: 6px;
-        
     }
 </style>
+
+<script>
+    // Convertimos la lista C# a JS usando System.Text.Json
+    const pets = @Html.Raw(JsonSerializer.Serialize(perros));
+    const petsPerPage = 8;
+    let currentPage = 1;
+
+    const petsGrid = document.getElementById('petsGrid');
+    const pageInfo = document.getElementById('pageInfo');
+    const prevBtn = document.getElementById('prevPageBtn');
+    const nextBtn = document.getElementById('nextPageBtn');
+
+    function renderPets() {
+        petsGrid.innerHTML = '';
+
+        const start = (currentPage - 1) * petsPerPage;
+        const end = start + petsPerPage;
+        const pagePets = pets.slice(start, end);
+
+        pagePets.forEach(pet => {
+            const card = document.createElement('a');
+            card.href = `@Url.Action("InfoAdopcion", "Home")/${pet.Id}`;
+            card.className = 'pet-card';
+            card.innerHTML = `
+                <img src="${pet.Img}" alt="${pet.Nombre}">
+                <div class="pet-info">${pet.Nombre}</div>
+            `;
+            petsGrid.appendChild(card);
+        });
+
+        const totalPages = Math.ceil(pets.length / petsPerPage);
+        pageInfo.textContent = `Página ${currentPage} de ${totalPages}`;
+
+        prevBtn.disabled = currentPage === 1;
+        nextBtn.disabled = currentPage === totalPages;
+    }
+
+    prevBtn.addEventListener('click', () => {
+        if (currentPage > 1) {
+            currentPage--;
+            renderPets();
+        }
+    });
+
+    nextBtn.addEventListener('click', () => {
+        const totalPages = Math.ceil(pets.length / petsPerPage);
+        if (currentPage < totalPages) {
+            currentPage++;
+            renderPets();
+        }
+    });
+
+    renderPets();
+</script>

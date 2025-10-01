@@ -10,20 +10,27 @@
 <div class="pet-detail-container">
     <!-- Foto a la izquierda -->
     <div class="pet-detail-image">
-        <img src="@Model.ImagenUrl" alt="@Model.Nombre" />
+        <img src="@Model.Imagen" alt="@Model.Nombre" />
     </div>
 
     <!-- Info a la derecha -->
     <div class="pet-detail-info">
         <p><strong>Nombre:</strong> @Model.Nombre</p>
-        <p><strong>Edad:</strong> @Model.Edad</p>
-        <p><strong>Raza:</strong> @Model.Raza</p>
-        <p><strong>Estado:</strong> @Model.Estado</p>
+        <p><strong>Edad:</strong> @Model.Edad años</p>
+        <p><strong>Historia:</strong> @Model.Historia</p>
 
-        <a href="/FormularioAdopcion/@Model.Id" class="btn primary">Adoptar</a>
+        <p><strong>Raza:</strong> @(((Dictionary<int, string>)ViewBag.Razas)[Model.Id_Raza])</p>
+        <p><strong>Estado:</strong> @(((Dictionary<int, string>)ViewBag.Estados)[Model.Id_Estado])</p>
+        <p><strong>Especie:</strong> @(((Dictionary<int, string>)ViewBag.Especies)[Model.Id_Especie])</p>
+        <p><strong>Tamaño:</strong> @(((Dictionary<int, string>)ViewBag.Tamanos)[Model.Id_Tamano])</p>
 
+        <p><strong>Fecha de ingreso:</strong> @Model.FechaIngreso.ToString("dd/MM/yyyy")</p>
+        <p><strong>Pensión:</strong> @(Model.Id_Pension.HasValue ? Model.Id_Pension.ToString() : "Sin pensión")</p>
+
+        <a href="/FormularioAdopcion/@Model.Id_Animal" class="btn primary">Adoptar</a>
     </div>
 </div>
+
 
 <style>
     .pet-detail-container {
