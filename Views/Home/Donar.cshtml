@@ -2,106 +2,222 @@
 	ViewData["Title"] = "Donaciones";
     Layout = "~/Views/Shared/Layout1.cshtml";
 }
+<body>
 
-<h1>Donaciones</h1>
-<div class="donar-row">
-    
-        
-    <div class="box-donar">
-        <h2>Donar  Insumos</h2>
-        <details>
-            <summary> ¿Que insumos Donar?  </summary>
-            <ul>
-                <li>Bebida</li>
-                <li>Snack</li>
-            </ul>
-        </details>
-        <details>
-            <summary>  Medicacion  </summary>
-            <ul>
-                <li>Bebida</li>
-                <li>Snack</li>
-            </ul>
-        </details>
-    </div>
-   
+    <h1>Donaciones</h1>
 
+    <div class="donar-row">
 
+        <div class="box-donar" aria-labelledby="dinero-title">
+            <h2 id="dinero-title">Donar Dinero</h2>
 
-    <div class="box-donar">
-        <h2>Donar  Dinero</h2>
-        <details>
-            <summary>  Mercado pago  </summary>
-            <ul>
-                <li><a href="https://linktr.ee/SantaRamona?ltsid=45dd17f6-4563-46bc-abd6-4da25b88e3ad" target="_blank">lINK MERCADO PAGO</a></li>
-                <li> MAIL: santaramonaprotectora@gmail.com </li>
-            </ul>
-        </details>
-        <details>
-            <summary>  Banco Ciudad  </summary>
-            <ul>
-                <li> CUENTA CAJA DE AHORRO: 000001110201685844 </li>
-                <li> TITULAR: Sierra María José </li>
-                <li> CBU: 0290000110000016858443 </li>
-                <li> CUIT/CUIL: 20-28496562-1 </li>
-                <li> ALIAS: SANTA.RAMONA </li>
-                <li> MAIL: santaramonaprotectora@gmail.com </li>
-            </ul>
-        </details>
-    </div>
-</div>
+            <details>
+                <summary>Mercado Pago</summary>
+                <ul>
+                    <li><a href="https://linktr.ee/SantaRamona" target="_blank" rel="noopener" class="link">Link Mercado Pago</a></li>
+                    <li>Email: <a href="mailto:santaramonaprotectora@gmail.com" class="link">santaramonaprotectora@gmail.com</a></li>
+                </ul>
+            </details>
 
+            <details>
+                <summary>Banco Ciudad</summary>
+                <ul>
+                    <li>Cuenta: 000001110201685844</li>
+                    <li>Titular: Sierra María José</li>
+                    <li>CBU: 0290000110000016858443</li>
+                    <li>CUIT/CUIL: 20-28496562-1</li>
+                    <li>Alias: <strong>SANTA.RAMONA</strong></li>
+                </ul>
+            </details>
+        </div>
 
-<!-- Donar -->
+        <div class="box-donar" aria-labelledby="insumos-title">
+            <h2 id="insumos-title">Donar Insumos</h2>
+
+            <details>
+                <summary>¿Qué insumos donar?</summary>
+                <ul>
+                    <li>Camitas</li>
+                    <li>Alimento</li>
+                </ul>
+            </details>
+
+            <details>
+                <summary>Medicación</summary>
+                <ul>
+                    <li>Antiparasitarios</li>
+                    <li>Antiinflamatorios</li>
+                </ul>
+            </details>
+
+            <details>
+                <summary>¿Donde?</summary>
+                <ul>
+                    <li>Flores</li>
+                    <li>Caballito</li>
+                    <a href="https://www.instagram.com/santaramonaprotectora?igsh=MTVrbWN1Z2Z0OWp5ag==" target="_blank" rel="noopener" class="link">
+                        Para más información contactanos vía Instagram
+                    </a>
+
+                </ul>
+            </details>
+        </div>
+
+   </div>
+</body>
+
 <style>
+    :root {
+        --accent: #C23A79;
+        --teal: #178C94;
+        --bg: #f3f8f7;
+        --card: #ffffff;
+    }
+
+    /* Reset simple */
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0
+    }
+
+    body {
+        font-family: Inter, "Segoe UI", Roboto, Arial, sans-serif;
+        background: linear-gradient(180deg, #fbfefc 0%, var(--bg) 100%);
+        color: #1f2933;
+        
+    }
 
     h1 {
         text-align: center;
-        color: #C23A79;
+        color: var(--accent);
+        font-size: 2rem;
+        margin-bottom: 20px;
+        font-weight: 800;
     }
 
+
+
+    /* Layout principal */
     .donar-row {
         display: flex;
-        gap: 2px;/* separación entre cajas */
-        justify-content: center; /* centra horizontalmente */
-        flex-wrap: wrap; /* permite bajar a la siguiente línea en pantallas pequeñas */
-        padding: 20px 10px; /* espacio alrededor opcional */
-    }
-
-    details {
-        background-color: #178C94;
-        border: 0px solid #ddd;
-        margin: 30px;
-        border-radius: 5px;
+        gap: 24px;
+        justify-content: center;
+        flex-wrap: wrap;
+        max-width: 1100px;
+        margin: 0 auto;
+        margin-top: 40px;
+        align-items: flex-start;
         
     }
 
-    summary {
-        background-color: transparent;
-        padding: 9px;
-        color:white;
-    }
+    /* TARJETA */
     .box-donar {
         display: flex;
-        flex-direction: column; /* apila elementos de arriba hacia abajo */
-        align-items: center; /* centra horizontalmente */
-        justify-content: flex-start; /* los deja arriba de la caja */
-        width: 500px;
-        min-height: 300px;
-        background-color: white;
-        margin: 20px auto;
+        flex-direction: column;
+        gap: 14px;
+        width: 100%;
+        max-width: 520px;
+        background: var(--card);
+        border-radius: 14px;
+        padding: 20px 10px;
         box-shadow: 0 0 40px 0 rgba(0,0,0,.2);
-        border-radius: 10px; /* opcional, se ve más lindo */
-        padding: 10px;
+        border: 1px solid rgba(0,0,0,0.04);
+        transition: transform .18s ease, box-shadow .18s ease;
+        margin:10px;
+        
     }
 
-    .box-donar h2 {
-        color: #C23A79;
-        margin: 20px;
+        .box-donar:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 22px 40px rgba(16,24,32,0.12);
+        }
 
+        .box-donar h2 {
+            color: var(--accent);
+            text-align: center;
+            font-size: 1.2rem;
+            margin-top: 4px;
+        }
+
+    /* DETAILS estilizado: aspecto claramente visible */
+    details {
+        background: linear-gradient(90deg, rgba(23,140,148,0.12), rgba(194,58,121,0.08));
+        border-radius: 10px;
+        overflow: hidden;
+        border: 1px solid rgba(0,0,0,0.03);
     }
 
+    summary {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        padding: 12px 14px;
+        cursor: pointer;
+        font-weight: 600;
+        color: #043c3d;
+    }
+
+        summary::before {
+            content: "+";
+            display: inline-block;
+            min-width: 20px;
+            text-align: center;
+            color: var(--teal);
+            font-size: 1rem;
+            transition: transform .15s ease;
+        }
+
+    details[open] summary::before {
+        content: "-";
+    }
+
+    /* contenido dentro de details */
+    details > ul {
+        padding: 10px 18px 14px 22px;
+        background: #fff;
+        border-top: 1px solid rgba(0,0,0,0.03);
+    }
+
+    details li {
+        list-style: none;
+        position: relative;
+        padding-left: 18px;
+        margin: 8px 0;
+        color: #385055;
+    }
+
+        details li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            top: 0;
+            color: var(--teal);
+            font-weight: 700;
+        }
+
+    /* Enlaces  */
+    .link {
+        color: var(--teal);
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+        .link:hover {
+            text-decoration: underline;
+        }
  
+    .donar-row {
+        gap: 12px;
+    }
+
+    .box-donar {
+        padding: 14px;
+    }
+
 </style>
+
+
 <!-- fin donar -->
  
