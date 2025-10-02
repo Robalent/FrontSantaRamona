@@ -5,31 +5,39 @@
     Layout = "~/Views/Shared/Layout1.cshtml";
 }
 
-<h1>Detalle de @Model.Nombre</h1>
+@if (Model != null)
+{
+    <h1>Detalle de @Model.Nombre</h1>
 
-<div class="pet-detail-container">
-    <!-- Foto a la izquierda -->
-    <div class="pet-detail-image">
-        <img src="@Model.Imagen" alt="@Model.Nombre" />
+    <div class="pet-detail-container">
+        <!-- Foto a la izquierda -->
+        <div class="pet-detail-image">
+            <img src="@Model.Imagen" alt="@Model.Nombre" />
+        </div>
+
+        <!-- Info a la derecha -->
+        <div class="pet-detail-info">
+            <p><strong>Nombre:</strong> @Model.Nombre</p>
+            <p><strong>Edad:</strong> @Model.Edad años</p>
+
+            <p><strong>Raza:</strong> @(ViewBag.Razas != null && ((Dictionary<int, string>)ViewBag.Razas).ContainsKey(Model.Id_Raza) ? ((Dictionary<int, string>)ViewBag.Razas)[Model.Id_Raza] : "Desconocida")</p>
+
+            <p><strong>Tamaño:</strong> @(ViewBag.Tamanos != null && ((Dictionary<int, string>)ViewBag.Tamanos).ContainsKey(Model.Id_Tamano) ? ((Dictionary<int, string>)ViewBag.Tamanos)[Model.Id_Tamano] : "Desconocido")</p>
+
+            <p><strong>Historia:</strong> @Model.Historia</p>
+
+            <a href="/FormularioAdopcion/@Model.Id_Animal" class="btn primary">Adoptar</a>
+        </div>
     </div>
 
-    <!-- Info a la derecha -->
-    <div class="pet-detail-info">
-        <p><strong>Nombre:</strong> @Model.Nombre</p>
-        <p><strong>Edad:</strong> @Model.Edad años</p>
-        <p><strong>Historia:</strong> @Model.Historia</p>
+    <!-- Botón volver con estilo igual al botón Adoptar -->
+    <button type="button" class="btn primary" onclick="history.back()"> Volver</button>
 
-        <p><strong>Raza:</strong> @(((Dictionary<int, string>)ViewBag.Razas)[Model.Id_Raza])</p>
-        <p><strong>Estado:</strong> @(((Dictionary<int, string>)ViewBag.Estados)[Model.Id_Estado])</p>
-        <p><strong>Especie:</strong> @(((Dictionary<int, string>)ViewBag.Especies)[Model.Id_Especie])</p>
-        <p><strong>Tamaño:</strong> @(((Dictionary<int, string>)ViewBag.Tamanos)[Model.Id_Tamano])</p>
-
-        <p><strong>Fecha de ingreso:</strong> @Model.FechaIngreso.ToString("dd/MM/yyyy")</p>
-        <p><strong>Pensión:</strong> @(Model.Id_Pension.HasValue ? Model.Id_Pension.ToString() : "Sin pensión")</p>
-
-        <a href="/FormularioAdopcion/@Model.Id_Animal" class="btn primary">Adoptar</a>
-    </div>
-</div>
+}
+else
+{
+    <p>Mascota no encontrada.</p>
+}
 
 
 <style>
@@ -75,22 +83,27 @@
         padding: 15px;
     }
 
-        .btn.primary {
-            margin-top: auto; /* lo empuja hacia abajo dentro del contenedor flex */
-            align-self: center; /* centra el botón horizontalmente */
-            padding: 10px 20px;
+        .btn-volver {
             background: var(--teal);
             color: white;
-            box-shadow: var(--shadow);
-            border-radius: 5px;
+            box-shadow: none; /* quita la sombra negra */
+            display: inline-grid;
+            place-items: center;
+            padding: 12px 18px;
+            border-radius: 999px;
             text-decoration: none;
-            font-weight: bold;
-            transition: background 0.2s;
+            font-weight: 800;
+            letter-spacing: .4px;
+            cursor: pointer;
+            border: none;
+            outline: none;
         }
 
-        .btn.primary:hover {
-                background: #009a84;
-        }
+            .btn-volver:hover {
+                background-color: #009a84;
+            }
+
+
 
 
 </style>

@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using FrontSantaRamona.AdopcionModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 using PruebaFront.Models;
 
 namespace PruebaFront.Controllers
@@ -50,10 +51,11 @@ namespace PruebaFront.Controllers
 
         public IActionResult Adopcion()
         {
+
             // lista de mascotas o redirección a la vista
             return View();
         }
-        public IActionResult InfoAdopcion(int id)
+        public IActionResult InfoAdopcion(int id, int? page)
         {
             // Diccionarios simulando tablas relacionadas
             var razas = new Dictionary<int, string>
@@ -69,11 +71,7 @@ namespace PruebaFront.Controllers
         {2, "Gato"}
     };
 
-            var estados = new Dictionary<int, string>
-    {
-        {1, "Disponible"},
-        {2, "Adoptado"}
-    };
+         
 
             var tamanos = new Dictionary<int, string>
     {
@@ -91,12 +89,9 @@ namespace PruebaFront.Controllers
             Edad = 2,
             Imagen = "/images/adoptados/Labrador.luna.jpg",
             Id_Raza = 1,
-            Id_Especie = 1,
-            Id_Estado = 1,
-            Historia = "Es muy cariñosa y le gusta jugar.",
-            FechaIngreso = DateTime.Now.AddMonths(-2),
-            Id_Pension = null,
-            Id_Tamano = 1
+            Id_Tamano = 1,
+            Historia = "Fue encontrada en una plaza, temblando de frío. Hoy, con una manta y una caricia, mueve la cola como si nunca hubiera sufrido. Solo le falta un hogar.",
+
         },
         new Adopcion {
             Id_Animal = 2,
@@ -104,12 +99,8 @@ namespace PruebaFront.Controllers
             Edad = 3,
             Imagen = "/images/adoptados/Beagle.max.jpg",
             Id_Raza = 1,
-            Id_Especie = 1,
-            Id_Estado = 2,
-            Historia = "Le encanta correr y es muy activo.",
-            FechaIngreso = DateTime.Now.AddMonths(-6),
-            Id_Pension = 1,
-            Id_Tamano = 2
+            Id_Tamano = 2,
+            Historia = "Vivió atado casi toda su vida. Ahora que conoció la libertad, corre sin parar. Busca una familia que lo acompañe en cada carrera.",
         },
         new Adopcion {
     Id_Animal = 3,
@@ -117,12 +108,8 @@ namespace PruebaFront.Controllers
     Edad = 1,
     Imagen = "/images/adoptados/Caniche.onix.jpg",
     Id_Raza = 1, // Caniche
-    Id_Especie = 1,
-    Id_Estado = 2,
-    Historia = "Es dulce y jugueton, le encanta saltar.",
-    FechaIngreso = DateTime.Now.AddMonths(-4),
-    Id_Pension = 1,
-    Id_Tamano = 2
+    Id_Tamano = 2,
+    Historia = "Sobrevivió en la calle comiendo lo que encontraba. Hoy, agradece cada plato con besos y saltos. Su mayor deseo es una familia de verdad.",
 },
 
 new Adopcion {
@@ -131,12 +118,8 @@ new Adopcion {
     Edad = 4,
     Imagen = "/images/adoptados/Caniche.toby.jpg",
     Id_Raza = 1, // Caniche
-    Id_Especie = 1,
-    Id_Estado = 2,
-    Historia = "Muy cariñoso y le gusta pasear.",
-    FechaIngreso = DateTime.Now.AddMonths(-5),
-    Id_Pension = 1,
-    Id_Tamano = 1
+    Id_Tamano = 1,
+    Historia = "Llegó flaco y con miedo. Poco a poco, volvió a confiar en las personas. Ahora sueña con una cama calentita y muchas caricias.",
 },
 
 new Adopcion {
@@ -145,12 +128,8 @@ new Adopcion {
     Edad = 3,
     Imagen = "/images/adoptados/Caniche.coco.jpeg",
     Id_Raza = 1, // Caniche
-    Id_Especie = 1,
-    Id_Estado = 2,
-    Historia = "Le encanta jugar con pelotas y es muy activo.",
-    FechaIngreso = DateTime.Now.AddMonths(-3),
-    Id_Pension = 1,
-    Id_Tamano = 2
+    Id_Tamano = 2,
+    Historia = "Rescatado de una zanja, con apenas fuerzas para caminar. Hoy es pura energía y alegría. Busca un hogar que valore su segunda oportunidad.",
 },
 
 new Adopcion {
@@ -159,12 +138,8 @@ new Adopcion {
     Edad = 5,
     Imagen = "/images/adoptados/Mestizo.rocco.jpeg",
     Id_Raza = 2, // Mestizo
-    Id_Especie = 1,
-    Id_Estado = 2,
-    Historia = "Rescatado de la calle, es muy leal y protector.",
-    FechaIngreso = DateTime.Now.AddMonths(-6),
-    Id_Pension = 2,
-    Id_Tamano = 1
+    Id_Tamano = 1,
+    Historia = "Era invisible para todos en la calle, hasta que alguien lo miró con amor. Ahora espera que otra persona lo mire igual y lo elija para siempre.",
 },
 
 new Adopcion {
@@ -173,12 +148,8 @@ new Adopcion {
     Edad = 2,
     Imagen = "/images/adoptados/Mestizo.maya.jpeg",
     Id_Raza = 2, // Mestizo
-    Id_Especie = 1,
-    Id_Estado = 2,
-    Historia = "Cariñosa y tranquila, se lleva bien con todos.",
-    FechaIngreso = DateTime.Now.AddMonths(-2),
-    Id_Pension = 2,
-    Id_Tamano = 3
+    Id_Tamano = 3,
+    Historia = "Cachorrita abandonada en una caja. Sus ojitos curiosos no dejan de explorar. Solo necesita alguien que la acompañe en cada aventura.",
 },
 
 new Adopcion {
@@ -187,12 +158,8 @@ new Adopcion {
     Edad = 3,
     Imagen = "/images/adoptados/Mestizo.simba.jpeg",
     Id_Raza = 2, // Mestizo
-    Id_Especie = 1,
-    Id_Estado = 2,
-    Historia = "Muy curioso y juguetón, le encanta explorar.",
-    FechaIngreso = DateTime.Now.AddMonths(-4),
-    Id_Pension = 2,
-    Id_Tamano = 1
+    Id_Tamano = 1,
+    Historia = "Pasó meses en un basural, pero nunca perdió la alegría. Hoy juega con todo lo que encuentra y sueña con jugar en el patio de su nueva casa.",
 },
 
 new Adopcion {
@@ -201,12 +168,8 @@ new Adopcion {
     Edad = 1,
     Imagen = "/images/adoptados/Mestizo.iris.jpeg",
     Id_Raza = 2, // Mestizo
-    Id_Especie = 1,
-    Id_Estado = 1,
-    Historia = "Cariñosa y tranquila, se lleva bien con todos.",
-    FechaIngreso = DateTime.Now.AddMonths(-2),
-    Id_Pension = 2,
-    Id_Tamano = 3
+    Id_Tamano = 3,
+    Historia = "Le tenía miedo a todo, incluso a su sombra. Con paciencia, volvió a confiar. Hoy sonríe con cada caricia, pero sueña con hacerlo en su propio hogar.",
 },
 new Adopcion {
     Id_Animal = 10,
@@ -214,28 +177,25 @@ new Adopcion {
     Edad = 1,
     Imagen = "/images/adoptados/Mestizo.odin.jpeg",
     Id_Raza = 2, // Mestizo
-    Id_Especie = 1,
-    Id_Estado = 1,
-    Historia = "Jugueton y amoroso, se lleva bien solo con perros.",
-    FechaIngreso = DateTime.Now.AddMonths(-2),
-    Id_Pension = 2,
-    Id_Tamano = 3
+    Id_Tamano = 3,
+    Historia = "Fue encontrado en una estación de tren, siguiendo a la gente con la esperanza de que alguien lo lleve. Todavía espera a esa persona especial que lo elija.",
 },
 
     };
 
-            var mascotaSeleccionada = animales.FirstOrDefault(a => a.Id_Animal == id);
+            var mascota = animales.FirstOrDefault(a => a.Id_Animal == id);
+            if (mascota == null) return NotFound();
 
-            if (mascotaSeleccionada == null)
-                return NotFound();
+            ViewBag.Page = page ?? 1;
+            return View(mascota);
 
-            // Paso los diccionarios por ViewBag para usarlos en la vista
+            // Paso los diccionarios y la página a la vista
             ViewBag.Razas = razas;
             ViewBag.Especies = especies;
-            ViewBag.Estados = estados;
             ViewBag.Tamanos = tamanos;
+            ViewBag.Page = page ?? 1; // si no viene page, asume 1
 
-            return View(mascotaSeleccionada);
+            
         }
 
 
@@ -247,5 +207,10 @@ new Adopcion {
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+
+        
+
     }
+
 }
