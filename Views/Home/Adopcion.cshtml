@@ -24,9 +24,9 @@
 <div class="pets-grid" id="petsGrid"></div>
 
 <div class="pagination" style="margin-top: 20px; text-align: center;">
-    <button id="prevPageBtn">Página anterior</button>
+    <button id="prevPageBtn">◄ Página anterior</button>
     <span id="pageInfo" style="margin: 0 10px;"></span>
-    <button id="nextPageBtn">Siguiente página</button>
+    <button id="nextPageBtn">Siguiente página ►</button>
 </div>
 
 <style>
@@ -75,6 +75,46 @@
         font-size: 20px;
         margin-bottom: 6px;
     }
+
+    /*----------------*/
+
+    h1 {
+        text-align: center;
+        color: #C23A79;
+        font-size: 2rem;
+        margin-bottom: 20px;
+        font-weight: 800;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .pagination button {
+        background-color: #2DB8B5;
+        color: white;
+        border: none;
+        padding: 10px 18px;
+        border-radius: 8px;
+        font-size: 14px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+        .pagination button:hover {
+            background-color: #2DB8B5;
+            transform: translateY(-2px);
+        }
+
+        .pagination button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+
+
 </style>
 
 <script>

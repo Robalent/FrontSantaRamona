@@ -168,7 +168,39 @@
 
 		</div>
 
-		<button type="submit"> Guardar</button>
+        <button type="submit"> Guardar</button>
+
+      
 
 	</form>
 </div>
+<!-- 
+	-------------------------Cuando haya back---------------------------------
+
+<button type="button" onclick="guardarYRedirigir()">SIGUIENTE</button>
+<script>
+	async function guardarYRedirigir() {
+		// Capturamos los datos del formulario
+		const form = document.querySelector("form");
+		const formData = new FormData(form);
+
+		try {
+			// Enviar datos al endpoint (si existe)
+			const response = await fetch("/api/persona", {
+				method: "POST",
+				body: formData
+			});
+
+			if (response.ok) {
+				// Si se guardó correctamente, redirigimos
+				window.location.href = "/Formularios/Formulario2-Voluntariado";
+			} else {
+				alert("Ocurrió un error al guardar los datos.");
+			}
+		} catch (error) {
+			alert("Error al conectar con el servidor.");
+		}
+	}
+</script>
+
+-->
