@@ -1,4 +1,4 @@
-using System.Diagnostics;
+ï»¿using System.Diagnostics;
 using FrontSantaRamona.AdopcionModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -35,12 +35,12 @@ namespace PruebaFront.Controllers
             // Datos de prueba (mock)
             var voluntariados = new List<VoluntariadoInfo>
         {
-            new VoluntariadoInfo { Id = 1, Texto = "Ser mayor de 18 años", ImagenUrl = "/images/juancito.jpg" },
+            new VoluntariadoInfo { Id = 1, Texto = "Ser mayor de 18 aÃ±os", ImagenUrl = "/images/juancito.jpg" },
             new VoluntariadoInfo { Id = 2, Texto = "Disponibilidad fines de semana", ImagenUrl = "/images/nina.jpg" },
             new VoluntariadoInfo { Id = 3, Texto = "Amor por los animales", ImagenUrl = "/images/sasha.jpg" }
         };
 
-            // Esto lo enviás a la vista
+            // Esto lo enviÃ¡s a la vista
             return View(voluntariados);
         }
 
@@ -52,7 +52,7 @@ namespace PruebaFront.Controllers
         public IActionResult Adopcion()
         {
 
-            // lista de mascotas o redirección a la vista
+            // lista de mascotas o redirecciÃ³n a la vista
             return View();
         }
         public IActionResult InfoAdopcion(int id, int? page)
@@ -90,7 +90,7 @@ namespace PruebaFront.Controllers
             Imagen = "/images/adoptados/Labrador.luna.jpg",
             Id_Raza = 1,
             Id_Tamano = 1,
-            Historia = "Fue encontrada en una plaza, temblando de frío. Hoy, con una manta y una caricia, mueve la cola como si nunca hubiera sufrido. Solo le falta un hogar.",
+            Historia = "Fue encontrada en una plaza, temblando de frÃ­o. Hoy, con una manta y una caricia, mueve la cola como si nunca hubiera sufrido. Solo le falta un hogar.",
 
         },
         new Adopcion {
@@ -100,7 +100,7 @@ namespace PruebaFront.Controllers
             Imagen = "/images/adoptados/Beagle.max.jpg",
             Id_Raza = 1,
             Id_Tamano = 2,
-            Historia = "Vivió atado casi toda su vida. Ahora que conoció la libertad, corre sin parar. Busca una familia que lo acompañe en cada carrera.",
+            Historia = "ViviÃ³ atado casi toda su vida. Ahora que conociÃ³ la libertad, corre sin parar. Busca una familia que lo acompaÃ±e en cada carrera.",
         },
         new Adopcion {
     Id_Animal = 3,
@@ -109,7 +109,7 @@ namespace PruebaFront.Controllers
     Imagen = "/images/adoptados/Caniche.onix.jpg",
     Id_Raza = 1, // Caniche
     Id_Tamano = 2,
-    Historia = "Sobrevivió en la calle comiendo lo que encontraba. Hoy, agradece cada plato con besos y saltos. Su mayor deseo es una familia de verdad.",
+    Historia = "SobreviviÃ³ en la calle comiendo lo que encontraba. Hoy, agradece cada plato con besos y saltos. Su mayor deseo es una familia de verdad.",
 },
 
 new Adopcion {
@@ -119,7 +119,7 @@ new Adopcion {
     Imagen = "/images/adoptados/Caniche.toby.jpg",
     Id_Raza = 1, // Caniche
     Id_Tamano = 1,
-    Historia = "Llegó flaco y con miedo. Poco a poco, volvió a confiar en las personas. Ahora sueña con una cama calentita y muchas caricias.",
+    Historia = "LlegÃ³ flaco y con miedo. Poco a poco, volviÃ³ a confiar en las personas. Ahora sueÃ±a con una cama calentita y muchas caricias.",
 },
 
 new Adopcion {
@@ -129,7 +129,7 @@ new Adopcion {
     Imagen = "/images/adoptados/Caniche.coco.jpeg",
     Id_Raza = 1, // Caniche
     Id_Tamano = 2,
-    Historia = "Rescatado de una zanja, con apenas fuerzas para caminar. Hoy es pura energía y alegría. Busca un hogar que valore su segunda oportunidad.",
+    Historia = "Rescatado de una zanja, con apenas fuerzas para caminar. Hoy es pura energÃ­a y alegrÃ­a. Busca un hogar que valore su segunda oportunidad.",
 },
 
 new Adopcion {
@@ -139,7 +139,7 @@ new Adopcion {
     Imagen = "/images/adoptados/Mestizo.rocco.jpeg",
     Id_Raza = 2, // Mestizo
     Id_Tamano = 1,
-    Historia = "Era invisible para todos en la calle, hasta que alguien lo miró con amor. Ahora espera que otra persona lo mire igual y lo elija para siempre.",
+    Historia = "Era invisible para todos en la calle, hasta que alguien lo mirÃ³ con amor. Ahora espera que otra persona lo mire igual y lo elija para siempre.",
 },
 
 new Adopcion {
@@ -149,7 +149,7 @@ new Adopcion {
     Imagen = "/images/adoptados/Mestizo.maya.jpeg",
     Id_Raza = 2, // Mestizo
     Id_Tamano = 3,
-    Historia = "Cachorrita abandonada en una caja. Sus ojitos curiosos no dejan de explorar. Solo necesita alguien que la acompañe en cada aventura.",
+    Historia = "Cachorrita abandonada en una caja. Sus ojitos curiosos no dejan de explorar. Solo necesita alguien que la acompaÃ±e en cada aventura.",
 },
 
 new Adopcion {
@@ -159,7 +159,7 @@ new Adopcion {
     Imagen = "/images/adoptados/Mestizo.simba.jpeg",
     Id_Raza = 2, // Mestizo
     Id_Tamano = 1,
-    Historia = "Pasó meses en un basural, pero nunca perdió la alegría. Hoy juega con todo lo que encuentra y sueña con jugar en el patio de su nueva casa.",
+    Historia = "PasÃ³ meses en un basural, pero nunca perdiÃ³ la alegrÃ­a. Hoy juega con todo lo que encuentra y sueÃ±a con jugar en el patio de su nueva casa.",
 },
 
 new Adopcion {
@@ -169,7 +169,7 @@ new Adopcion {
     Imagen = "/images/adoptados/Mestizo.iris.jpeg",
     Id_Raza = 2, // Mestizo
     Id_Tamano = 3,
-    Historia = "Le tenía miedo a todo, incluso a su sombra. Con paciencia, volvió a confiar. Hoy sonríe con cada caricia, pero sueña con hacerlo en su propio hogar.",
+    Historia = "Le tenÃ­a miedo a todo, incluso a su sombra. Con paciencia, volviÃ³ a confiar. Hoy sonrÃ­e con cada caricia, pero sueÃ±a con hacerlo en su propio hogar.",
 },
 new Adopcion {
     Id_Animal = 10,
@@ -178,7 +178,7 @@ new Adopcion {
     Imagen = "/images/adoptados/Mestizo.odin.jpeg",
     Id_Raza = 2, // Mestizo
     Id_Tamano = 3,
-    Historia = "Fue encontrado en una estación de tren, siguiendo a la gente con la esperanza de que alguien lo lleve. Todavía espera a esa persona especial que lo elija.",
+    Historia = "Fue encontrado en una estaciÃ³n de tren, siguiendo a la gente con la esperanza de que alguien lo lleve. TodavÃ­a espera a esa persona especial que lo elija.",
 },
 
     };
@@ -186,16 +186,15 @@ new Adopcion {
             var mascota = animales.FirstOrDefault(a => a.Id_Animal == id);
             if (mascota == null) return NotFound();
 
-            ViewBag.Page = page ?? 1;
-            return View(mascota);
-
-            // Paso los diccionarios y la página a la vista
+            // ðŸ”¹ Mover esto antes del return
             ViewBag.Razas = razas;
             ViewBag.Especies = especies;
             ViewBag.Tamanos = tamanos;
-            ViewBag.Page = page ?? 1; // si no viene page, asume 1
+            ViewBag.Page = page ?? 1;
 
-            
+            return View(mascota);
+
+
         }
 
 
