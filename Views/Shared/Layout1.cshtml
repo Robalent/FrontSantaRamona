@@ -12,6 +12,9 @@
 
     <!-- CSS propio -->
     <link href="~/css/StyleSheet.css" rel="stylesheet" asp-append-version="true" />
+
+    <!-- Aquí: permite que las vistas inserten su CSS -->
+    @RenderSection("Styles", required: false)
 </head>
 <body id="top ">
     <!-- Header -->
