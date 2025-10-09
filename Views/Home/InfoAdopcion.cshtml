@@ -5,6 +5,10 @@
     Layout = "~/Views/Shared/Layout1.cshtml";
 }
 
+@section Styles {
+    <link rel="stylesheet" href="~/css/infoAdopcion.css" asp-append-version="true" />
+    }
+
 @if (Model != null)
 {
     <h1 style="text-align:center; margin-top:30px;">Detalle de @Model.Nombre</h1>
@@ -54,6 +58,9 @@ else
 {
     <p>Mascota no encontrada.</p>
 }
+
+
+@* 
 
 <style>
 
@@ -162,3 +169,5 @@ else
     }
 </style>
 
+/* ... Fin info adopcion ... */
+*@ 
