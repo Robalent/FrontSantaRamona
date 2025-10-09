@@ -2,9 +2,12 @@
 	ViewData["Title"] = "Voluntariado";
     Layout = "~/Views/Shared/Layout1.cshtml";
 }
+@section Styles {
+    <link rel="stylesheet" href="~/css/Voluntariado.css" asp-append-version="true" />
+}
 
- <style>
-     /*--------------------*/
+@*  <style>
+    /*  /*--------------------*/
     h1 {
         text-align: center;
         color: #C23A79;
@@ -99,8 +102,8 @@
         border-radius:10px;
         box-shadow: 5px #C23A79;
     }
-    
-</style> 
+   
+</style> *@ 
 
 @model List<PruebaFront.Models.VoluntariadoInfo>
 
