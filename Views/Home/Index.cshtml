@@ -50,50 +50,60 @@
         </div>
     </section>
 
-    <!-- Patitas en adopción -->
     <section id="adoptar" class="adopcion">
         <div class="section-inner">
-            <div class="section-title ">
+            <div class="section-title">
                 <h2>Patitas en adopción</h2>
                 <span aria-hidden="true">🐾</span>
             </div>
+
             <div class="scroller-wrap">
+                <!-- Botón IZQUIERDA -->
                 <button class="arrow left" aria-label="Desplazar a la izquierda" data-arrow="left" data-target="adopcion">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6" /></svg>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                         stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="15 18 9 12 15 6" />
+                    </svg>
                 </button>
-                <div class="scroller" id="scroller-adopcion" data-name="adopcion">
-                    <!-- Card 1 -->
-                    <article class="card pet-card" aria-label="Rufina para adopción">
-                        <img src="images/miguel.jpg" alt="Miguel, perro color canela" loading="lazy">
+
+                <!-- Contenedor de tarjetas (solo tarjetas dentro) -->
+                <div class="scroller" id="scroller-adopcion" role="list">
+                    <!-- 🐶 Luna -->
+                    <a asp-controller="Adopcion" asp-action="InfoAdopcion" asp-route-id="1" class="card pet-card" role="listitem">
+                        <img src="/images/adoptados/Labrador.luna.jpg" alt="Luna, perra labrador" loading="lazy">
                         <div class="pet-body">
-                            <div class="pet-name">Miguel</div>
-                            <div class="pet-meta">Aproximadamente 6 meses, tamaño mediano</div>
-                        </div>                        
-                    </article>
-                    <!-- Card 2 -->
-                    <article class="card pet-card" aria-label="Juanito para adopción">
-                        <img src="images/Bolt.jpg" alt="Juanito, cachorro salchicha" loading="lazy">
-                        <div class="pet-body">
-                            <div class="pet-name">Bolt</div>
-                            <div class="pet-meta">Aproximadamente 6 años, tamaño chico</div>
-                        </div>                        
-                    </article>
-                    <!-- Card 3 -->
-                    <article class="card pet-card" aria-label="Mafalda para adopción">
-                        <img src="images/Simona.jpg" alt="Mafalda, perra blanca y negra" loading="lazy">
-                        <div class="pet-body">
-                            <div class="pet-name">Simona</div>
-                            <div class="pet-meta">Aproximadamente 2 años, tamaño chico</div>
-                        </div>                        
-                    </article>
+                            <div class="pet-name">Luna</div>
+                            <div class="pet-meta"> </div>
+                        </div>
+                    </a>
+
+                    <!-- Repite las demás tarjetas (Max, Onix, Toby, etc.) -->
+                    <a asp-controller="Adopcion" asp-action="InfoAdopcion" asp-route-id="2" class="card pet-card" role="listitem">
+                        <img src="/images/adoptados/Beagle.max.jpg" alt="Max, perro beagle" loading="lazy">
+                        <div class="pet-body"><div class="pet-name">Max</div><div class="pet-meta"></div></div>
+                    </a>
+
+                    <!-- ... tarjetas 3 a 10 ... -->
+                    <a asp-controller="Adopcion" asp-action="InfoAdopcion" asp-route-id="3" class="card pet-card" role="listitem">
+                        <img src="/images/adoptados/Caniche.onix.jpg" alt="Onix" loading="lazy">
+                        <div class="pet-body"><div class="pet-name">Onix</div><div class="pet-meta"></div></div>
+                    </a>
+
+                    <!-- Agrega aquí las tarjetas 4..10 tal como tenías -->
+                    <!-- ... -->
+
                 </div>
+
+                <!-- Botón DERECHA -->
                 <button class="arrow right" aria-label="Desplazar a la derecha" data-arrow="right" data-target="adopcion">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6" /></svg>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                         stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="9 18 15 12 9 6" />
+                    </svg>
                 </button>
             </div>
         </div>
     </section>
-
     <!-- Patitas en tránsito -->
     <section id="transitos" class="transito">
         <div class="section-inner">
