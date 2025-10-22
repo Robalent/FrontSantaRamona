@@ -1,0 +1,223 @@
+[33mcommit 576e2b1f17a84d42b38bea10748e0389231c85c6[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mDesarrollo[m[33m, [m[1;31morigin/Desarrollo[m[33m)[m
+Author: AtilaEzequiel <112121260+AtilaEzequiel@users.noreply.github.com>
+Date:   Sat Oct 11 03:15:43 2025 -0300
+
+    tarjeta fotmulario
+
+[33mcommit 86cb0709ec3118cca018bb1681d8552811bf0fc5[m
+Author: AtilaEzequiel <112121260+AtilaEzequiel@users.noreply.github.com>
+Date:   Fri Oct 10 19:41:06 2025 -0300
+
+    pag oki
+
+[33mcommit ad0905d47a9ffa6c692f6924ecc9a0198fb93b13[m[33m ([m[1;31morigin/gh-pages[m[33m)[m
+Author: EvelynEnc <evelyn2001mtd@gmail.com>
+Date:   Fri Oct 10 18:07:55 2025 -0300
+
+    Eliminacion de controllers, adopcion ok. Falta infoAdopcion
+
+[33mcommit f3c730bb5e396bc8ce88029048e5a600cd87ff35[m
+Author: EvelynEnc <evelyn2001mtd@gmail.com>
+Date:   Fri Oct 10 16:16:49 2025 -0300
+
+    Patitas adopcion
+
+[33mcommit 4d6ae8d009e6e4e500bb299c805137523abbe34c[m
+Merge: 753d456 b942581
+Author: EvelynEnc <evelyn2001mtd@gmail.com>
+Date:   Thu Oct 9 18:10:40 2025 -0300
+
+    Merge branch 'Desarrollo' resolved
+
+[33mcommit 753d4565a218c20a61cc5c539b9191ad07817de8[m
+Author: EvelynEnc <evelyn2001mtd@gmail.com>
+Date:   Thu Oct 9 17:59:50 2025 -0300
+
+    Carpetas de css de adopcion y info adopcion hecha
+
+[33mcommit b942581e1988c3f7f197e39b08953d4ca94afacf[m
+Author: Robalent <balentrocio@gmail.com>
+Date:   Thu Oct 9 17:48:11 2025 -0300
+
+    css voluntariado
+
+[33mcommit a7f0762919ab92f43b5761b9363cfd2e7789cf00[m
+Author: AtilaEzequiel <112121260+AtilaEzequiel@users.noreply.github.com>
+Date:   Thu Oct 9 17:17:03 2025 -0300
+
+    CSS donar archivos prolijos
+
+[33mcommit 9a415af82313f5b94dd872701e927658fc62d06e[m
+Author: AtilaEzequiel <112121260+AtilaEzequiel@users.noreply.github.com>
+Date:   Thu Oct 9 16:48:43 2025 -0300
+
+    Cambio de color en botones Info adopcion
+
+[33mcommit c6ffac2246fc499ede1fe05df7f49faa506fef29[m
+Author: AtilaEzequiel <112121260+AtilaEzequiel@users.noreply.github.com>
+Date:   Thu Oct 9 16:36:42 2025 -0300
+
+    Titulos centrados - Botones de paginacion con color(adoptar) - Requisitos centrados(voluntariado)
+
+[33mcommit 92e04257a523636efbe0809a21bce37a8849c032[m
+Author: EvelynEnc <evelyn2001mtd@gmail.com>
+Date:   Thu Oct 9 12:18:52 2025 -0300
+
+    Subo cambios/arreglos de las tarjetas de adopción
+
+[33mcommit c72ac0742938cf67d9ed04597a39acdcb432a605[m
+Author: Robalent <balentrocio@gmail.com>
+Date:   Tue Oct 7 16:58:47 2025 -0300
+
+    pequeñas modificaciones
+
+[33mcommit 0b71de84f3908d85d453d8d2471809570119375a[m
+Author: AtilaEzequiel <112121260+AtilaEzequiel@users.noreply.github.com>
+Date:   Fri Oct 3 16:59:21 2025 -0300
+
+    Donar- mapa agregado + simuladores de back
+
+[33mcommit 4da0391e572b7e811c4d5dee4926daaa98b1a7a9[m
+Author: EvelynEnc <evelyn2001mtd@gmail.com>
+Date:   Wed Oct 1 22:59:18 2025 -0300
+
+    Tarjetas con info arreglada + boton atras
+
+[33mcommit 1ba7697617947cb77247e619360fda5580d50c4b[m
+Author: AtilaEzequiel <112121260+AtilaEzequiel@users.noreply.github.com>
+Date:   Wed Oct 1 18:11:39 2025 -0300
+
+    Donar mejorado - errores de tamaños solucionado
+
+[33mcommit c1023ed42d51444b4b0c9177b9b25c119a5ea11f[m
+Author: EvelynEnc <evelyn2001mtd@gmail.com>
+Date:   Wed Oct 1 07:20:21 2025 -0300
+
+    Agregadas tarjetas de adopción con paginación y estilo centrado
+
+[33mcommit ed005649b67d8db6a1dfb1e560aace327827b524[m
+Author: EvelynEnc <evelyn2001mtd@gmail.com>
+Date:   Tue Sep 30 16:59:51 2025 -0300
+
+    Tarjetas de adopcion + seccion info perritos
+
+[33mcommit 2e3e98d67bcc5d3de47255d1885e2d01ff878a12[m
+Author: Robalent <balentrocio@gmail.com>
+Date:   Tue Sep 30 16:54:58 2025 -0300
+
+    voluntariado + form persona
+
+[33mcommit a85110180c51a1375abd85a167b04a982f8ba665[m
+Author: AtilaEzequiel <112121260+AtilaEzequiel@users.noreply.github.com>
+Date:   Tue Sep 30 16:37:40 2025 -0300
+
+    Donar actualizado
+
+[33mcommit d8e138bd57c0e1955878360c216c5cdd319f3f0f[m
+Author: Robalent <balentrocio@gmail.com>
+Date:   Tue Sep 30 12:39:33 2025 -0300
+
+    voluntariados vol.1
+
+[33mcommit 92ec5043b3feaa310f710a1a07a931db25c1c222[m
+Author: Robalent <balentrocio@gmail.com>
+Date:   Mon Sep 29 20:39:58 2025 -0300
+
+    cambios clase
+
+[33mcommit 6bb7966a2ec74d3db096eba39d40676f1f8eaef2[m
+Author: Robalent <balentrocio@gmail.com>
+Date:   Mon Sep 29 17:10:41 2025 -0300
+
+    Voluntariado
+
+[33mcommit 7bb644b7f77307094a2ca14fe19c32afc353bb9b[m
+Author: AtilaEzequiel <112121260+AtilaEzequiel@users.noreply.github.com>
+Date:   Mon Sep 29 16:30:12 2025 -0300
+
+    Modificacion en Donar
+
+[33mcommit 97af6bbcde7f94b4ce1201b58a92f59049461e40[m
+Author: EvelynEnc <evelyn2001mtd@gmail.com>
+Date:   Mon Sep 29 09:39:57 2025 -0300
+
+    Tarjetas de adopción hechas
+
+[33mcommit fca85ee768c1f8ceb7877a524b656f8738f1c354[m
+Author: EvelynEnc <evelyn2001mtd@gmail.com>
+Date:   Mon Sep 29 00:12:57 2025 -0300
+
+    Agregué modelo, controlador y vista de adopción
+
+[33mcommit e3ecb22be957c42ac1190ac62d672fe2a9f5c141[m
+Author: Robalent <balentrocio@gmail.com>
+Date:   Sun Sep 28 20:00:58 2025 -0300
+
+    arreglo de errores
+
+[33mcommit 4ff51d20ec5a859dc3f4db48dab4bf145bd0e6e8[m
+Merge: 9d18391 f0209b4
+Author: Robalent <balentrocio@gmail.com>
+Date:   Sun Sep 28 19:32:54 2025 -0300
+
+    Merge branch 'Desarrollo' of https://github.com/Robalent/FrontSantaRamona into Desarrollo
+
+[33mcommit 9d18391377d96e4092ab198d08007a94ff7e3596[m
+Author: Robalent <balentrocio@gmail.com>
+Date:   Sun Sep 28 18:53:17 2025 -0300
+
+    vista voluntariado + archivos de prueba
+
+[33mcommit f0209b48f1921f6b75f8e305787f46eddd608cee[m
+Author: AtilaEzequiel <112121260+AtilaEzequiel@users.noreply.github.com>
+Date:   Wed Sep 24 17:45:11 2025 -0300
+
+    Footer abajo y banner arreglado
+
+[33mcommit c415fbde19968ccbe3198a6823bd79a5a8d83df7[m
+Author: Robalent <balentrocio@gmail.com>
+Date:   Tue Sep 23 11:26:47 2025 -0300
+
+    Modificaciones 23/9
+
+[33mcommit f8e1800b3ce37278d0c89fe26e6ddd5b40022930[m
+Author: Robalent <balentrocio@gmail.com>
+Date:   Mon Sep 22 16:37:36 2025 -0300
+
+    Layout + voluntariado
+
+[33mcommit 49e60bb632225ac97a027e28f177123c015f8780[m
+Author: AtilaEzequiel <112121260+AtilaEzequiel@users.noreply.github.com>
+Date:   Fri Sep 19 16:35:42 2025 -0300
+
+    Correccion de color titulos
+
+[33mcommit a09a6f59c6d210e8204b26b261a21a29698d2c15[m
+Author: Robalent <balentrocio@gmail.com>
+Date:   Fri Sep 19 16:01:05 2025 -0300
+
+    Agregué cambios
+
+[33mcommit 8c43c9aaba93f1425e3ebeb0ece858bdff8bbc7c[m
+Author: AtilaEzequiel <112121260+AtilaEzequiel@users.noreply.github.com>
+Date:   Fri Sep 19 15:43:09 2025 -0300
+
+    PRUEBA- cambio de color
+
+[33mcommit 77f3b394971f1fb4a5efcab468cf8bd5e25e359c[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: Robalent <balentrocio@gmail.com>
+Date:   Sat Sep 13 20:58:42 2025 -0300
+
+    modificación de archivos y css
+
+[33mcommit 578d1043810f705393128b6993c8faf9a1a32909[m
+Author: Robalent <balentrocio@gmail.com>
+Date:   Tue Sep 2 11:20:24 2025 -0300
+
+    modificaciones
+
+[33mcommit a6c74c3ad8fbc76c00029169e7e5e99930760544[m
+Author: CarlaCarpi <carlavc.86@gmail.com>
+Date:   Mon Sep 1 20:22:43 2025 -0300
+
+    front base

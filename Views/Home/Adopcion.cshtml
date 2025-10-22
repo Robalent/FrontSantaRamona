@@ -28,10 +28,12 @@
 
 <div class="pets-grid" id="petsGrid"></div>
 
-<div class="pagination" style="margin-top: 20px; text-align: center;">
-    <button id="prevPageBtn">◄ Página anterior</button>
-    <span id="pageInfo" style="margin: 0 10px;"></span>
-    <button id="nextPageBtn">Siguiente página ►</button>
+<div class="pagination-container">
+    <div class="pagination" style="margin-top: 20px; text-align: center;">
+        <button id="prevPageBtn">◄ Página anterior</button>
+        <span id="pageInfo" style="margin: 0 10px;"></span>
+        <button id="nextPageBtn">Siguiente página ►</button>
+    </div>
 </div>
 
 <!--
@@ -127,7 +129,7 @@
 <script>
     // Convertimos la lista C# a JS usando System.Text.Json
     const pets = @Html.Raw(JsonSerializer.Serialize(perros));
-    const petsPerPage = 8;
+    const petsPerPage = 6; // 6 o 12 para que quede bien
     let currentPage = 1;
 
     const petsGrid = document.getElementById('petsGrid');
